@@ -1,6 +1,7 @@
 ## Assignments for Week 01 ##
 
-**Assignment 01 :** 2020.04.10
+#### Assignment 01 ####
+Date: 2020.04.10
 
 문제에서 요구하는 함수 정의하기
 ```
