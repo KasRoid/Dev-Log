@@ -1,4 +1,4 @@
-### What I have Studied in Week 01 ###
+### What I have learned in Week 01 ###
 
 |     |Contents               |Links |
 |-----|-----------------------|------|
