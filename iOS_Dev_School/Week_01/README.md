@@ -6,5 +6,5 @@
 |Day 2|Terminal & Git         |
 |Day 3|How to Use Github      |
 |Day 4|Useful utilities       |
-|Day 5|--Start Learning Swift--<br> Contants and Variables<br> Type Annotation & Type Interference<br>Literals & Types<br>Type Conversion<br>Basic Operators<br>Function
+|Day 5|**Start Learning Swift**<br> Contants and Variables<br> Type Annotation & Type Interference<br>Literals & Types<br>Type Conversion<br>Basic Operators<br>Function
 
