@@ -7,4 +7,4 @@
 |Day 3|How to Use Github      |
 |Day 4|Useful utilities       |
 |Day 5|Contants and Variables<br> Type Annotation & Type Interference<br>Literals & Types<br>Type Conversion<br>Basic Operators<br>Function
-|
+
