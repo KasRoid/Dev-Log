@@ -75,6 +75,20 @@ print(grade(score: 85))
 print(grade(score: 70))
 print(grade(score: 43))
 
+func grade2 (score: Int) {
+    if score >= 90 {
+        print ("A")
+    }
+    else if score >= 80 {
+        print ("B")
+    }
+    else if score >= 70 {
+        print ("C")
+    }
+    else {
+        print ("F")
+    }
+}
 
 // Q#06
 func scoreAverage (_ scores: Double...) -> Double {
