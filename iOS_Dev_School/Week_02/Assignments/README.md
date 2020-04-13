@@ -65,16 +65,15 @@
 
 4. 100 이하의 자연수 중 3과 5의 공배수를 모두 출력하는 함수
    ```Swift
-   func scoreAverage (_ scores: Double...) -> Double {
-       var total : Double = 0 // 전체점수를 기록할 변수
-       for currentScore in scores { // currentScore 에 score 가 돌아가며 삽입됨)
-           total += currentScore
+   func commonMultiple(_ Integer: Int) {
+       for i in 1...Integer {
+           if 15 * i <= Integer {
+               print(15 * i, terminator: " ")
+           }
        }
-       return (total / Double(scores.count)) // 리턴 단계에서 평균 점수 계산
    }
 
-   var totalScore = scoreAverage(100, 50, 25, 25)
-   print(totalScore)
+   commonMultiple(89)
    ```
 
 
