@@ -23,21 +23,25 @@
 
 2. 문자열 두 개를 입력받아 두 문자열이 같은지 여부를 판단해주는 함수
    ```Swift
-   func divisor(_ Integer: Int) {
-       var arrOfDivisor: Array<Int> = []
-       
-       for i in 1...Integer {
-           if Integer % i == 0 {
-               arrOfDivisor.append(i)
+   func compareString(String1: String, String2: String) -> String {
+       func areSame() -> Bool {
+           if String1 == String2 {
+               return true
+           }
+           else {
+               return false
            }
        }
-       for i in 0...arrOfDivisor.count - 1 {
-           print(arrOfDivisor[i], terminator: " ")
+       
+       if areSame() == true {
+           return "Two strings are same."
        }
-       print("")
+       else {
+           return "Two strings are NOT same."
+       }
    }
 
-   divisor(15)
+   print(compareString(String1: "A", String2: "A"))
    ```
 
 3. 자연수를 입력받아 그 수의 약수를 모두 출력하는 함수
@@ -61,42 +65,40 @@
 
 4. 100 이하의 자연수 중 3과 5의 공배수를 모두 출력하는 함수
    ```Swift
-   func divisor(_ Integer: Int) {
-       var arrOfDivisor: Array<Int> = []
-       
-       for i in 1...Integer {
-           if Integer % i == 0 {
-               arrOfDivisor.append(i)
-           }
+   func scoreAverage (_ scores: Double...) -> Double {
+       var total : Double = 0 // 전체점수를 기록할 변수
+       for currentScore in scores { // currentScore 에 score 가 돌아가며 삽입됨)
+           total += currentScore
        }
-       for i in 0...arrOfDivisor.count - 1 {
-           print(arrOfDivisor[i], terminator: " ")
-       }
-       print("")
+       return (total / Double(scores.count)) // 리턴 단계에서 평균 점수 계산
    }
 
-   divisor(15)
+   var totalScore = scoreAverage(100, 50, 25, 25)
+   print(totalScore)
    ```
 
 
 #### Challenge 01 ####
 1. 2 이상의 자연수를 입력받아, 소수인지 아닌지를 판별하는 함수
    ```Swift
-   func divisor(_ Integer: Int) {
-       var arrOfDivisor: Array<Int> = []
+   unc primeNumber (_ num1: Int) {
+       var arrOfNumbers: Array<Int> = []
        
-       for i in 1...Integer {
-           if Integer % i == 0 {
-               arrOfDivisor.append(i)
+       for i in 1...num1 {
+           if num1 % i == 0 {
+               arrOfNumbers.append(i)
            }
        }
-       for i in 0...arrOfDivisor.count - 1 {
-           print(arrOfDivisor[i], terminator: " ")
+       
+       if arrOfNumbers.count <= 2 {
+           print("\(num1) is a prime number!")
        }
-       print("")
+       else {
+           print("\(num1) is NOT a prime number.")
+       }
    }
 
-   divisor(15)
+   primeNumber(13)
    ```
 
 2. 자연수 하나를 입력받아 피보나치 수열 중에서 입력받은 수에 해당하는 자리의 숫자를 반환하는 함수
@@ -104,21 +106,21 @@
   e.g.  0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 ....
   함수 호출 시 입력받은 숫자가 4인 경우 피보나치 수열의 4번째 위치인 2 출력
    ```Swift
-   func divisor(_ Integer: Int) {
-       var arrOfDivisor: Array<Int> = []
+   func checkFibonacci (_ num1: Int) {
+       var arrOfFibonacci: Array<Int> = [0, 1]
+       var i = 0
+       var j = 1
        
-       for i in 1...Integer {
-           if Integer % i == 0 {
-               arrOfDivisor.append(i)
-           }
+       while arrOfFibonacci.count < num1 {
+           arrOfFibonacci.append(arrOfFibonacci[i] + arrOfFibonacci[j])
+           i += 1
+           j += 1
        }
-       for i in 0...arrOfDivisor.count - 1 {
-           print(arrOfDivisor[i], terminator: " ")
-       }
-       print("")
+       
+       print(arrOfFibonacci[arrOfFibonacci.endIndex - 1])
    }
 
-   divisor(15)
+   checkFibonacci(8)
    ```
 
 3. 정수를 입력받아 윤년(2월 29일이 있는 해)인지 아닌지 판단하는 함수
@@ -126,19 +128,17 @@
   ex) 윤년O 예시 - 160, 204, 400, 1996, 2000, 2800
       윤년X 예시 - 200, 300, 500, 600, 1900, 2100
    ```Swift
-   func divisor(_ Integer: Int) {
-       var arrOfDivisor: Array<Int> = []
-       
-       for i in 1...Integer {
-           if Integer % i == 0 {
-               arrOfDivisor.append(i)
-           }
+   func leapYear (year: Int) {
+       if year % 400 == 0 {
+           print("\(year) is a leap yaer!")
        }
-       for i in 0...arrOfDivisor.count - 1 {
-           print(arrOfDivisor[i], terminator: " ")
+       else if year % 4 == 0 && year % 100 != 0 {
+           print("\(year) is a leap yaer!")
        }
-       print("")
+       else {
+           print("\(year) is NOT a leap yaer!")
+       }
    }
 
-   divisor(15)
+   leapYear(year: 400)
    ```
