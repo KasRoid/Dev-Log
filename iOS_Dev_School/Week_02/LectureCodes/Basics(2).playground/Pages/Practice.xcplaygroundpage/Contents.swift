@@ -14,7 +14,71 @@
    (switch where clause 를 이용해 풀어볼 수 있으면 해보기)
  */
 
+func grader (_ score: Double) -> String {
+    switch score {
+    case 4.5...:
+        return("A+")
+    case 4.0..<4.5:
+        return("A")
+    case 3.5..<4.0:
+        return("B+")
+    case 3.0..<3.5:
+        return("B")
+    case 2.5..<3.0:
+        return("C+")
+    case 2.0..<2.5:
+        return("C")
+    default:
+        return("F")
+    }
+}
 
+grader(1)
+
+func monthInEnglish (_ month: Int) -> String {
+    switch month {
+    case 1:
+        return("January")
+    case 2:
+        return("Feburary")
+    case 3:
+        return("March")
+    case 4:
+        return("April")
+    case 5:
+        return("May")
+    case 6:
+        return("June")
+    case 7:
+        return("July")
+    case 8:
+        return("August")
+    case 9:
+        return("September")
+    case 10:
+        return("October")
+    case 11:
+        return("November")
+    case 12:
+        return("December")
+    default:
+        return("Wrong Number")
+    }
+}
+
+monthInEnglish(3)
+
+func multiplication (_ num1: Int, _ num2: Int, _ num3: Int) -> Bool {
+    let result = num1 * num2 * num3
+    switch result {
+    case 0...:
+        return true
+    default:
+        return false
+    }
+}
+
+multiplication(1, 1, 1)
 /*:
  ---
  ## Loops
@@ -31,6 +95,49 @@
    (1234 인 경우 각 자리 숫자를 합치면 10)
  */
 
+func factorialFunction (_ num1: Int) -> Int {
+    var result = 1
+    for i in 1...num1 {
+        result *= i
+    }
+    return result
+}
+
+factorialFunction(4)
+
+func powerFunction (Base: Int, Power: Int) -> Int {
+    var result = 1
+    for _ in 1...Power {
+        result *= Base
+    }
+    return result
+}
+
+powerFunction(Base: 3, Power: 4)
+
+func sumOfDigits (_ num1: Int) -> Int {
+    var numberOfDigit = 0
+    var input = num1
+    var result = 0
+    
+    func digitCounter (_ num1: Int) -> Int {
+        while input > 0 {
+            input = input / 10
+            numberOfDigit += 1
+        }
+    return numberOfDigit
+    }
+    digitCounter(num1)
+    
+    input = num1
+    for _ in 1...numberOfDigit {
+        result += input % 10
+        input = input / 10
+    }
+    return result
+}
+
+sumOfDigits(95)
 /*:
  ---
  ## Control Transfer
@@ -42,4 +149,43 @@
  - 1 ~ 50 사이의 숫자 중에서 20 ~ 30 사이의 숫자만 제외하고 그 나머지를 모두 더해 출력하는 함수
  */
 
+func sumOfIntegers(_ num1: Int) -> Int {
+    var result = 0
+    for i in 1...num1 {
+        result += i
+        if result > 2000 {
+            return result
+        }
+    }
+    return result
+}
+
+sumOfIntegers(65)
+
+func sumInRange(_ num1: Int) -> Int {
+    var result = 0
+    
+    switch num1 {
+    case 1...30:
+        for i in 1...19 {
+        result += i
+        }
+    case 31...50:
+        for i in 1...19 {
+            result += i
+        }
+        for i in 31...num1 {
+            result += i
+        }
+    default:
+        print("Choose number between 1 ~ 50.")
+    }
+    return result
+}
+
+print(sumInRange(51))
+
+
+
 //: [Next](@next)
+

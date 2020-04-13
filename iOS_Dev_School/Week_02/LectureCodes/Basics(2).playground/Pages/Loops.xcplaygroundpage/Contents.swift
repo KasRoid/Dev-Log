@@ -52,6 +52,20 @@ for str in list {
  - for 문을 이용하여 10부터 1까지 내림차순으로 출력하는 코드 구현
  ---
  */
+// 직접 작성한 코드
+var result = 1
+
+for _ in 1...10 {
+    result = result * 3
+    print(result, terminator: " ")
+}
+print("")
+
+for i in (1...10).reversed() {
+    print(i, terminator: " ")
+}
+
+
 // 하단 Answer 참고
 
 
@@ -89,6 +103,18 @@ sum
  - 2 ~ 9 사이의 숫자를 입력받아 해당 숫자에 해당하는 구구단 내용을 출력하는 함수
  ---
  */
+// 직접 작성한 코드
+func multiplication (_ num1: Int) {
+    var counter = 1
+    while counter < 10 {
+        print("\(num1) * \(counter) = \(num1 * counter)")
+        counter += 1
+    }
+}
+
+multiplication(5)
+
+
 // 하단 Answer 참고
 
 
@@ -120,8 +146,18 @@ printMultiplicationTable1(for: 3)
  - 자연수 하나를 입력받아 1부터 해당 숫자 사이의 모든 숫자의 합을 구해 그 합을 반환하는 함수
  ---
  */
+// 직접 작성한 코드
+func sum (_ num1: Int) {
+    var counter = 1
+    var result = 0
+    repeat {
+        result = result + counter
+        counter += 1
+    } while counter <= num1
+    print(result)
+}
 
-
+sum(4)
 /*:
  ---
  ### Answer

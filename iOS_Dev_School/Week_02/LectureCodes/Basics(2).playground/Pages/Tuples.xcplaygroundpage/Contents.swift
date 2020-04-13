@@ -146,5 +146,8 @@ print()
 //  // 어떤 식으로 출력해야 할까요?
 //}
 
-
+// 직접 작성한 코드
+for element in fruits {
+    print(element.value)
+}
 //: [Next](@next)
