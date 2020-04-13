@@ -1,4 +1,5 @@
 ## Here is my footage 😁 ##
+[Note : My Blog: Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)
 ---
 #### Week 02 : 2020.04.13 - 2020.04.17 ####
 |     |Contents               |Links |
@@ -7,7 +8,7 @@
 |Day 9|Useful utilities                                                                                                                                                             |-                                                                              |
 |Day 8|How to Use Github                                                                                                                                                            |[Note : Github](https://www.notion.so/Github-08b8c08a82b0491db8d59db54c92737f) |
 |Day 7|Terminal & Git                                                                                                                                                               |[Note : Terminal](https://www.notion.so/Basics-of-Computer-9554caea6c0d4373a45cab5dd444aa4e) <br> [Note : Git](https://www.notion.so/Git-70de6d6f6aa14f77a0355422b374bb3f)|
-|Day 6|Basics of Computer                                                                                                                                                           |[Note : BoC](https://www.notion.so/Basics-of-Computer-9554caea6c0d4373a45cab5dd444aa4e) |
+|Day 6|Control Flow                                                                                                                                                           |[Note : BoC](https://www.notion.so/Basics-of-Computer-9554caea6c0d4373a45cab5dd444aa4e) |
 ---
 2020.04.03 FastCampus iOS Dev School
 
