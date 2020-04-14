@@ -56,8 +56,12 @@ let strArray4 = Array<String>(repeating: "iOS", count: 5)
  - Double, Bool 타입으로 임의의 값을 넣어 초기화하는 배열을 만들어 보세요.
  ---
  */
+// 직접 작성한 코드
+let emptyArr: Array<String> = []
+let emptyArrInt: Array<Int> = []
 
-
+let doubleArr: Array<Double> = [0.0, 1.1, 2.2, 3.3]
+let boolArr: Array<Bool> = [true, false, true]
 /*:
  ### Number of Elements
  */
@@ -116,7 +120,7 @@ if alphabet.contains(where: { str -> Bool in
 }
 
 if let index = alphabet.firstIndex(of: "Q") {
-  print("index of D: \(index)")
+  print("index of Q: \(index)")
 } else {
   print("No index")
 }
@@ -176,7 +180,7 @@ alphabetArray
  */
 alphabetArray = ["A", "B", "C", "D", "E"]
 
-let removed = alphabetArray.remove(at: 0)
+let removed = alphabetArray.remove(at: 0) // 제거된 값이 removed 에 담김
 alphabetArray
 
 alphabetArray.removeAll()
@@ -269,8 +273,32 @@ for (index, element) in array.reversed().enumerated() {
 // ex) [50, 23, 29, 1, 45, 39, 59, 19, 15] -> 59
 
 
+// 직접 작성한 코드
+var alphabetArr: Array<String> = ["p", "u", "p", "p", "y"]
+
+if let indexP = alphabetArr.firstIndex(of: "p") {
+    alphabetArr.remove(at: indexP)
+}
+alphabetArr
 
 
+let intArr1 = [1, 2, 4, 8, 9, 12, 13]
+let intArr2 = [2, 5, 6, 9, 13]
+var commonArr: Array<Int> = []
+
+for i in intArr1 {
+    for j in intArr2 {
+        if i == j {
+            commonArr.append(i)
+        }
+    }
+}
+commonArr
+
+
+var intArr = [50, 23, 29, 1, 45, 39, 59, 19, 15]
+intArr.sort()
+intArr.last
 
 /*:
  ---

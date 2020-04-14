@@ -33,7 +33,9 @@ let words3 = ["A": "Apple", "B": "Banana", "C": "City"]
  - Type Annotation 과 Type Inference 방식을 모두 이용해 여러 가지 데이터를 넣어 딕셔너리를 만들어보세요.
  ---
  */
-
+// 직접 작성한 코드
+var emptyDictionary: Dictionary <String, Int> = [:]
+var variousDictionary = [1: "apple", 2: "orange", 3: "banana"]
 
 /*:
  ### Number of Elements
@@ -192,14 +194,16 @@ words.removeAll()
  */
 print("\n---------- [ Nested ] ----------\n")
 
+// dictionary 안에 값으로 배열이 들어있음
 var dict1 = [String: [String]]()
 //dict1["arr"] = "A"
 
+// 아래처럼 내려가는 형식으로 데이터를 집어넣을 수 있음
 dict1["arr1"] = ["A", "B", "C"]
 dict1["arr2"] = ["D", "E", "F"]
 dict1
 
-
+// dictionary 안에 dictionary 가 들어있음...
 var dict2 = [String: [String: String]]()
 dict2["user1"] = [
   "name": "나개발",
@@ -248,9 +252,30 @@ dict2
 // let scores = ["kor": 92,"eng": 88, "math": 96, "science": 89]
 // 결과 : 91.25
 
+// 직접 작성한 코드
+let scoreDictionary = ["kor": 92,"eng": 88, "math": 96, "science": 89]
+let valueArr = Array(scoreDictionary.values)
+var averageOfScores: Double = 0
+var total = 0
+
+for i in valueArr {
+    total += i
+}
+averageOfScores = Double(total) / Double(valueArr.count)
+
 // 2번 문제 예
 // let scores = ["kor": 92,"eng": 88, "math": 96, "science": 89]
 // 결과 : [("kor", 92), ("eng", 88), ("math", 96), ("science", 89)]
+
+// 직접 작성한 코드
+
+var tupleArr: [(String, Int)] = []
+
+for (key, value) in scoreDictionary {
+    tupleArr.append((key, value))
+}
+tupleArr
+
 
 // 3번 문제
 /*
@@ -267,8 +292,15 @@ dict2
    * D 강의
   */
 
+// 직접 작성한 코드
+var fastCampus = [String: [String: [String]]]()
+
+
 // 4번 문제
 // 자세한 내용은 Optional 시간에 배울 예정
+
+// 직접 작성한 코드
+
 
 
 /*:
