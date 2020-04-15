@@ -124,20 +124,6 @@
    print(grade(score: 70))
    print(grade(score: 43))
 
-   func grade2 (score: Int) {
-       if score >= 90 {
-           print ("A")
-       }
-       else if score >= 80 {
-           print ("B")
-       }
-       else if score >= 70 {
-           print ("C")
-       }
-       else {
-           print ("F")
-       }
-   }
    ```
       Solution
    ```Swift
@@ -176,21 +162,24 @@
    ```
       Solution
    ```Swift
-   func calculateGrade(from score: Int) -> String {
-     let grade: String
-     if score >= 90 {
-       grade = "A"
-     } else if score >= 80 {
-       grade = "B"
-     } else if score >= 70 {
-       grade = "C"
-     } else {
-       grade = "F"
+   func calculateGrade(from scores: Int...) -> String {
+     var sum = 0.0
+     for score in scores {
+       sum += Double(score)
      }
-     return grade
+     sum /= Double(scores.count)
+     
+     if sum >= 90 {
+       return "A"
+     } else if sum >= 80 {
+       return "B"
+     } else if sum >= 70 {
+       return "C"
+     } else {
+       return "F"
+     }
    }
 
-   calculateGrade(from: 100)
-   calculateGrade(from: 80)
-   calculateGrade(from: 50)
+   calculateGrade(from: 81, 95, 70, 60)
+   calculateGrade(from: 92, 84, 70, 99)
    ```
