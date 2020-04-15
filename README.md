@@ -2,7 +2,7 @@
 ---
 [My Blog: Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)
 
-2020.04.03 FastCampus iOS Dev School
+2020.04.03 - 2020.09.25 FastCampus iOS Dev School
 
 
 ---
