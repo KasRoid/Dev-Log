@@ -18,22 +18,24 @@ import UIKit
 // Associated value 를 사용한 문제 풀이
 enum Temperature {
     case celcius(Double), fahrenheit(Double), kelvin(Double)
+    
+    func toCelcius() -> Double {
+        switch temp {
+        case .fahrenheit(let x):
+            return (x - 32) * 5 / 9
+        case .kelvin(let x):
+            return x + 273
+        case .celcius(let x):
+            return x
+        }
+    }
 }
 
 var temp = Temperature.fahrenheit(80)
 temp = Temperature.kelvin(-250)
 
-func toCelcius() -> Double {
-    switch temp {
-    case .fahrenheit(let x):
-        return (x - 32) * 5 / 9
-    case .kelvin(let x):
-        return x + 273
-    case .celcius(let x):
-        return x
-    }
-}
-toCelcius()
+temp.toCelcius()
+
 
 
 // 추가적으로 풀어본 다른 방식
