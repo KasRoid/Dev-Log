@@ -82,7 +82,7 @@ print("\n---------- [ Optional Binding ] ----------\n")
  */
 
 
-let someValue = "100"
+let someValue = "123"
 
 if let number = Int(someValue) {
   print("\"\(someValue)\" has an integer value of \(number)")
@@ -233,7 +233,12 @@ print(colorNameToUse)
  - optionalStr ?? "This is a nil value" 를 3항 연산자로 바꿔보기
  ---
  */
+// isTrue ? a : b true 면 a 가 반환, false 면 b 가 반환
 
+let answer1 = optionalStr ?? "This is a nil value"
+let a = optionalStr != nil ? optionalStr! : "This is a nil value"
+print(a)
+print(answer1)
 
 /*:
  ## Optional Chaining
@@ -346,8 +351,37 @@ type(of: sumFunction)
  }
  */
 
+// 풀이 1
+func optionalFunc (num1: Int, num2: Int?) -> Int? {
+    guard let nonOptionalNum2 = num2 else {
+        return nil
+    }
+    if nonOptionalNum2 == 0 {
+        return nil
+    }
+    else {
+    return num1 & nonOptionalNum2
+    }
+}
 
+optionalFunc(num1: 3, num2: nil)
 
+// 삼항연산자 사용
+func optionalFunc2 (num1: Int, num2: Int?) -> Int? {
+    guard let nonOptionalNum2 = num2 else {
+        return nil
+    }
+    return nonOptionalNum2 == 0 ? nil : nonOptionalNum2
+}
+
+// 가드에 조건 2개 넣기
+func optionalFunc3 (num1: Int, num2: Int?) -> Int? {
+    guard let nonOptionalNum2 = num2, nonOptionalNum2 != 0 else {
+        return nil
+    }
+    return nonOptionalNum2
+}
+optionalFunc3(num1: 5, num2: nil)
 /*:
  ---
  ### Answer

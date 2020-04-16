@@ -88,8 +88,10 @@ type(of: number)
 
 
 switch number {
-case .odd(let x): print("홀수 :", x)
-case .even(let x): print("짝수 :", x)
+case .odd(let x):
+    print("홀수 :", x)
+case .even(let x):
+    print("짝수 :", x)
 }
 
 switch number {
@@ -129,7 +131,10 @@ case let .qrCode(productCode):
  */
 // 하단 Answer 참고
 
-
+enum Month {
+    case January(Int)
+    case February(Int)
+}
 
 
 /*:
@@ -171,7 +176,12 @@ Gender.male.rawValue
  */
 // 하단 Answer 참고
 
+enum Grader: Double {
+    case A = 4.0, B = 3.0, C = 2.0 , D = 1.0, F = 0.0
+}
 
+Grader.A
+Grader.A.rawValue
 /*:
  ---
  ### Implicitly Assigned Raw Values
@@ -356,9 +366,25 @@ location
  */
 // 하단 Answer 참고
 
+enum RemoteContorller {
+    case on, off
+    
+    mutating func switchStatus() {
+        switch self {
+        case .on:
+            self = .off
+        case .off:
+            self = .on
+        }
+    }
+}
 
-
-
+var television = RemoteContorller.off
+television.switchStatus()
+television.switchStatus()
+television.switchStatus()
+television.switchStatus()
+television.switchStatus()
 
 /*:
  ---
@@ -368,11 +394,11 @@ location
 print("\n---------- [ Answer ] ----------\n")
 
 // enum Month { case jan, feb } 정의하되 2월은 윤년인지 아닌지 정보를 저장할 수 있도록 구현
-enum Month {
+enum Month2 {
   case jan, feb(Bool)
 }
 
-let february = Month.feb(false)
+let february = Month2.feb(false)
 
 switch february {
 case .jan: break

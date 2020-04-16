@@ -42,7 +42,7 @@
 
 
 let possibleNumber = "123"
-var convertedNumber = Int(possibleNumber)
+var convertedNumber = Int(possibleNumber) // 숫자가 아닌 문자가 올 수도 있기 때문에 옵셔널이 적용이 된다.
 type(of: convertedNumber)
 
 //type(of: Int("123"))
