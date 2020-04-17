@@ -20,7 +20,13 @@
     let someClosure: (String, String) -> Bool = {
         let isAscending = $0 > $1
         return isAscending
+    }
     ```
+    ```Swift
+    // 위가 끝인줄 알았지만 갑자기 더 줄이는 방법이 떠오름 ㅎㅎ
+    let someClosure: (String, String) -> Bool = { $0 > $1 }
+    ```
+
 2. 아래 클로저를 Syntax Optimization을 이용하여 최대한 줄여보기
    ```Swift
    let otherClosure: ([Int]) -> Int = { (values: [Int]) -> Int in

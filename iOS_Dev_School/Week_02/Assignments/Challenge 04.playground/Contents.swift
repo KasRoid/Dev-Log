@@ -25,10 +25,7 @@ let otherClosure: ([Int]) -> Int = { (values: [Int]) -> Int in
 */
 
 
-let someClosure: (String, String) -> Bool = {
-    let isAscending = $0 > $1
-    return isAscending
-}
+let someClosure: (String, String) -> Bool = { $0 > $1 }
 
 
 // for 문을 사용해야한다면 이게 한계인듯?
