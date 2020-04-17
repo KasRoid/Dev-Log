@@ -33,8 +33,7 @@
    ```
    ```Swift
    // for 문을 꼭 쓰지 않아도 된다면 이렇게 까지 줄일 수 있다.
-   let otherClosure: ([Int]) -> Int = {
-       $0.count
+   let otherClosure: ([Int]) -> Int = { $0.count }
    ```
    ```Swift
    // for 문을 사용해야한다면 이게 한계인듯?
