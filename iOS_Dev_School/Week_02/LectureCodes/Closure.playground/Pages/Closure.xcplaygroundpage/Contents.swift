@@ -194,7 +194,7 @@ performClosure(param: { (str: String) -> Int in
   return str.count
 })
 
-performClosure(param: { (str: String) in
+performClosure(param: { (str: String) in // Int 는 str.count 를 추론하여 파악할 수 있기 때문에 생략 가능
   return str.count
 })
 
@@ -299,8 +299,15 @@ multiClosureParams(closure1: {
  - 정수를 두 개 입력 받아 곱한 결과를 반환하는 클로져
  ---
  */
+let divideByTwoClosure: (Int) -> Bool = { (num: Int) -> Bool in
+    return num % 2 == 0 ? true : false }
+divideByTwoClosure(11)
 
+let shortdivideByTwoClosure: (Int) -> Bool = { $0 % 2 == 0 ? true : false }
+shortdivideByTwoClosure(10)
 
+let multiplicationClosure: (Int, Int) -> Int = { $0 * $1 }
+multiplicationClosure(3, 4)
 
 /*:
  ---
