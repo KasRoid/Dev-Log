@@ -52,7 +52,7 @@ class LazyStoredProperty {
   
   // 1. 외부 요인이나 다른 설정에 기반
 //  var area = self.width * self.height
-  lazy var area = width * height
+  lazy var area = width * height // self 는 메모리에 저장되어 있는 값에 접근을 해야하는데 area 가 아직 메모리에 저장되지 않았으므로 lazy 를 사용하여야한다.
   
   // 2. 계산 비용이 많이 드는 상황
 //  var hardWork = "실행하면 약 10초 이상 걸려야 하는 작업"
@@ -72,7 +72,7 @@ lazyStored.width = 30
 lazyStored.area
 
 
-// 순서 주의
+// 순서 주의, 단 lazy 는 최초에 실행될 때 한번 값을 저장하게된다. 즉 다시 계산을 하지 않는다.
 let lazyStored1 = LazyStoredProperty()
 lazyStored1.area
 lazyStored1.width = 30
@@ -104,8 +104,8 @@ class ComputedProperty {
   var width = 5.0
   var height = 5.0
   
-  lazy var lazyArea = width * height
-  var area: Double {
+  lazy var lazyArea = width * height // 지연프로퍼티
+  var area: Double { // 연산프로퍼티, 지연프로퍼티와는 다르게 계속 계산이 가능하다. get 이 생략되어 있는 형태이다.
     width * height
   }
   
@@ -130,7 +130,7 @@ computed.width = 10
 computed.area
 computed.lazyArea
 
-computed.lazyArea = 50.0
+computed.lazyArea = 50.0 // 직접 바꾸면 값을 바꿀 수는 있다.
 computed.lazyArea
 
 computed.width = 20
@@ -205,8 +205,8 @@ obs.width = 50
 
 print("\n---------- [ Type Property ] ----------\n")
 
-class TypeProperty {
-  static var unit: String = "cm"
+class TypeProperty { // 전체적인 데이터를 바꿀 때 사용한다.
+  static var unit: String = "cm" // 타입프로퍼티 선언
   var width = 5.0
 }
 

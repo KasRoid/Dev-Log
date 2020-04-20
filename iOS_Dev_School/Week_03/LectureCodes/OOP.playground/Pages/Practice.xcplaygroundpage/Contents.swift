@@ -12,9 +12,38 @@
  */
 
 class Rectangle {
-  
+    var width: Double
+    var height: Double
+    
+    init(width: Double, height: Double) {
+        self.width = width
+        self.height = height
+    }
+    
+    func lengthChanger(width: Double, height: Double) -> () {
+        self.width = width
+        self.height = height
+    }
+    
+    func lengthNotification() -> (Double, Double) {
+        return (width, height)
+    }
+    
+    func area() -> Double {
+        return Double(width * height)
+    }
 }
 
+let rectangle = Rectangle(width: 10, height: 5)
+rectangle.area()
+rectangle.lengthChanger(width: 5, height: 5)
+rectangle.area()
+
+let square = Rectangle(width: 7, height: 7)
+square.area()
+square.lengthNotification()
+square.lengthChanger(width: 10, height: 10)
+square.area()
 
 
 /*
@@ -27,8 +56,56 @@ class Rectangle {
  */
 
 class TV {
+    var channel: Int
+    var volume: Int
+    var power: Bool
+    
+    init(channelInfo: Int, volume: Int, power: Bool) {
+        self.channel = channelInfo
+        self.volume = volume
+        self.power = power
+    }
+    
+    func powerSwitch() -> () {
+        switch power {
+        case true:
+            self.power = false
+            print("The TV is OFF")
+        default:
+            self.power = true
+            print("The TV is ON")
+        }
+    }
+    
+    func change(channel: Int, volume: Int) -> () {
+        switch power {
+        case true:
+            self.channel = channel
+            self.volume = volume
+        default:
+            print("The TV is turned off")
+        }
+    }
+    
+    func check() -> Int {
+        switch power {
+        case true:
+            print("Channel: ", channel, ", Volume: ", volume)
+            return 0
+        default:
+            return -1
+        }
+    }
 }
 
+let myTV = TV(channelInfo: 17, volume: 5, power: true)
+myTV.change(channel: 10, volume: 7)
+myTV.check()
+myTV.powerSwitch()
+myTV.check()
+myTV.change(channel: 50, volume: 50)
+myTV.powerSwitch()
+myTV.check()
 
 
 /*
@@ -37,11 +114,41 @@ class TV {
  */
 
 class Square {
+    var length: Int
+    var width: Int
+    
+    init(length: Int, width: Int) {
+        self.length = length
+        self.width = width
+    }
+    
+    func round() -> Int {
+        return length * 2 + width * 2
+    }
+    
+    func area() -> Int {
+        return length * width
+    }
 }
 
 
 class Circle {
+    var radius: Int
+    
+    init(radius: Int) {
+        self.radius = radius
+    }
+    
+    func round() -> Double {
+        return Double(radius) * 3.14 * Double(2)
+    }
+    
+    func area() -> Double {
+        return Double(radius) * Double(radius) * 3.14
+    }
 }
 
-
+var myCircle = Circle(radius: 8)
+myCircle.round()
+myCircle.area()
 //: [Next](@next)

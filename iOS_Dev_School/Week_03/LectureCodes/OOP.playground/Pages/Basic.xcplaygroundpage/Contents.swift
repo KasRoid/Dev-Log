@@ -56,10 +56,26 @@ tory.layDown()
  - 기능: 운전하기(drive), 후진하기(reverse) 등
  */
 
+class Vehicle {
+    var model = "Tuscon"
+    var modelYear = 2018
+    var color = "White"
+    
+    func drive() {
+        print("drive")
+    }
+    func reverse() {
+        print("reverse")
+    }
+}
 
+let bumblebee: Vehicle = Vehicle()
+bumblebee.color = "Yellow"
+bumblebee.model = "Sports Car"
+bumblebee.modelYear = 2014
+bumblebee.color
 
-
-
+bumblebee.drive()
 
 /*:
  ---
