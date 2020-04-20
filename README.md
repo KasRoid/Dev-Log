@@ -7,7 +7,7 @@
 
 ---
 #### Week 03 : 2020.04.20 - 2020.04.24 ####
-#### [Assignments for week 3](https://github.com/KasRoid/myStudyHistory/tree/master/iOS_Dev_School/Week_02/Assignments)
+#### [Assignments for week 3](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_03/Assignments)
 |     |Contents               |Links |
 |-----|-----------------------|------|
 |Day 15| UI Guide <br> Frame, ContentMode |[Note : Closure](https://www.notion.so/Closure-437bfd02edac4c22aa86da2d460f0eb0)|
