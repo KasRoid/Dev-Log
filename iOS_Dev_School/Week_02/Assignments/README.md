@@ -235,7 +235,36 @@
    print(digitReversed(input))
 
    ```
+   ```Swift
+   // 2020.04.20 클로저 연습 및 코드 최적화
+   let reversedNum: (Int) -> Int = {(num: Int) -> Int in
+       var reversedArr: [Int] = []
+       var input = num
+       var result = 0
+       var digits = 1
 
+       // array에 입력받은 숫자를 할당
+       while input > 0 {
+           reversedArr.append(input % 10)
+           input /= 10
+       }
+
+       // 자릿수에 맞게 곱할 10의자리 세팅
+       for _ in 1...reversedArr.count - 1 {
+           digits *= 10
+       }
+
+       // array에서 꺼내기
+       for i in reversedArr {
+           result += i * digits
+           digits /= 10
+       }
+
+       return result
+   }
+
+   reversedNum(123)
+   ```
 
 2. 100 ~ 900 사이의 숫자 중 하나를 입력받아 각 자리의 숫자가 모두 다른지 여부를 반환하는 함수
    ex) true - 123, 310, 369   /  false - 100, 222, 770
@@ -298,7 +327,7 @@
    ```
 
 
-2. 별도로 전달한 식육목 모식도 라는 자료를 보고 Dictionary 자료형에 맞도록 중첩형태로 데이터를 저장하고 + 해당 변수에서 표범 하위 분류를 찾아 사자와 호랑이를 출력하기
+2. 별도로 전달한 식육목 모식도 라는 자료를 보고 Dictionary 자료형에 맞도록 중첩형태로 데이터를 저장하고 + 해당 변수에서 표범 하위 분류를 찾아 사자와 호랑이를 출력하기
 
 
    ![image](https://user-images.githubusercontent.com/41736472/79218651-b75b7680-7e8b-11ea-9615-2d5ef56369b9.png)
