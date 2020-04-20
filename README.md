@@ -1,6 +1,7 @@
 ## Here is my footage 😎 ##
 ---
 [My Blog: Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)
+[Additional Practices](https://github.com/KasRoid/Intro_to_iOS_Development)
 
 2020.04.03 - 2020.09.25 FastCampus iOS Dev School
 
