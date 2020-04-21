@@ -39,15 +39,26 @@ koshort.color
  ---
  */
 class Person {
+    var name: String = "Unknown"
+    var age: Int = 1
 }
 
-class Student {
+class Student: Person {
+    var grade: Int = 1
 }
 
-class UniversityStudent {
+class UniversityStudent: Student {
+    var major: String = "Computer Science"
 }
 
+var kas = UniversityStudent()
+kas.age = 33
+kas.name = "Kas Song"
+kas.grade = 15
 
+kas.major
+kas.name
+kas.age
 
 /*:
  ## final

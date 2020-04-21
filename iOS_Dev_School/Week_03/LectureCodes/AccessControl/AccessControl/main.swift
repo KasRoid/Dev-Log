@@ -45,3 +45,4 @@ print("\n---------- [ Private ] ----------\n")
 
 let someOtherClass = SomeOtherClass()
 someOtherClass.someFunction()
+

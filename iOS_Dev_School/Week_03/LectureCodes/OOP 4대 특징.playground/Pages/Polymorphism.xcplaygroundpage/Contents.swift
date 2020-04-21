@@ -187,6 +187,31 @@ class Dog {
 let dog = Dog()
 dog.bark()
 
+class Poodle: Dog {
+    override func bark() {
+        print("푸들푸들")
+    }
+}
+
+let poodle = Poodle()
+poodle.bark()
+
+class Husky: Dog {
+    override func bark() {
+        print("허슼허슼")
+    }
+}
+let husky = Husky()
+husky.bark()
+
+class Bulldog: Dog {
+    override func bark() {
+        super.bark()
+        print("불독불독")
+    }
+}
+let bulldog = Bulldog()
+bulldog.bark()
 
 
 

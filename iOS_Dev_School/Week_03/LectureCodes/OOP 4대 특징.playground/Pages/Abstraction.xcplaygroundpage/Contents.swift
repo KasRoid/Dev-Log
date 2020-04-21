@@ -55,7 +55,42 @@ if cat.canJump {
  - 손님(Customer)의 속성과 동작 정의
  ---
  */
+protocol Owner {
+    var name: String { get }
+    var age: Int { get }
+    
+    func talk()
+    func sleep()
+}
 
+protocol Chef {
+    var name: String { get set }
+    var age: Int { get set }
+    
+    func cook()
+    func serve()
+}
+
+protocol Customer {
+    var name: String { get }
+    var numberOfPeople: Int { get set }
+    
+    func order()
+    func complain()
+    func eat()
+}
+
+class myChef: Chef {
+    var name: String = "Mr.Cook"
+    var age: Int = 45
+    
+    func cook() {
+        print("I'm cooking")
+    }
+    func serve() {
+        ("I'm serving")
+    }
+}
 
 
 

@@ -33,10 +33,30 @@ company.직원2.결과물산출()
 
 
 class A {
-  func currentLocation() {
-  }
-  func goToBusan() {
-  }
+    private var location = "Seoul"
+    private var happiness = 0
+    
+    private func eatSnack() {
+        happiness += 2
+    }
+    private func takeSleep() {
+        happiness += 1
+    }
+    private func lostWallet() {
+        happiness -= 10
+    }
+    private func myStat() {
+        print(happiness)
+    }
+    
+    func currentLocation() {
+        print(location)
+    }
+    func goToBusan() {
+        eatSnack()
+        takeSleep()
+        location = "Busan"
+    }
 }
 
 let a = A()
