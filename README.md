@@ -6,7 +6,7 @@
 
 ---
 
-#### 2020.04.03 - 2020.09.25 FastCampus iOS Dev School ####
+#### 2020.04.03 - 2020.09.25 : FastCampus iOS Dev School ####
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
