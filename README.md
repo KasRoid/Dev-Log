@@ -4,7 +4,9 @@
 
 [Additional Practices](https://github.com/KasRoid/Intro_to_iOS_Development)
 
-2020.04.03 - 2020.09.25 FastCampus iOS Dev School
+---
+
+#### 2020.04.03 - 2020.09.25 FastCampus iOS Dev School ####
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
