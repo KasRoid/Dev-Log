@@ -9,21 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var lableCount: UILabel!
+    @IBOutlet weak var labelCount: UILabel!
     var counter: Int = 0
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.lableCount.text = String(counter)
+        self.labelCount.text = String(counter)
     }
     
     @IBAction func btnCount(_ sender: UIButton) {
         counter += 1
-        self.lableCount.text = String(counter)
+        self.labelCount.text = String(counter)
     }
     @IBAction func btnReset(_ sender: UIButton) {
         counter = 0
-        self.lableCount.text = String(counter)
+        self.labelCount.text = String(counter)
     }
 }
