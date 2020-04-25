@@ -22,19 +22,19 @@ class ViewController: UIViewController {
     var labelXcode = UILabel()
     var labelSwift = UILabel()
     
+    let tableCode = ["Segmented Contol", "UIButton", "UISwitch"]
+    let tableTools = ["Xcode", "Git", "VScode"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Segmented Control
-        segmentedControl.frame = CGRect(x: view.frame.minX + view.frame.maxX * 2 / 8, y: view.frame.minY + 50, width: 200, height: 30)
-        segmentedControl.selectedSegmentIndex = 0
-        didChangeSegment(segmentedControl)
-
         
         // 컨테이너
         containerXcode.frame = CGRect(x: 0, y: 100, width: view.frame.width, height: view.frame.height)
         containerSwift.frame = CGRect(x: 0, y: 100, width: view.frame.width, height: view.frame.height)
         
+        // 테이블
+        tableViewXcode.frame = CGRect(x: 0, y: 100, width: view.frame.width, height: view.frame.height)
+        tableViewSwift.frame = CGRect(x: 0, y: 100, width: view.frame.width, height: view.frame.height)
         
         // 레이블
         labelXcode.text = "Xcode"
@@ -63,12 +63,10 @@ class ViewController: UIViewController {
         view.addSubview(imgSwift)
         
         
-        // 테이블
-        tableViewXcode.frame = CGRect(x: 0, y: 100, width: view.frame.width, height: view.frame.height)
-        tableViewXcode.alpha = 0
-        
-        tableViewSwift.frame = CGRect(x: 0, y: 100, width: view.frame.width, height: view.frame.height)
-        tableViewSwift.alpha = 0
+        // Segmented Control
+        segmentedControl.frame = CGRect(x: view.frame.minX + view.frame.maxX * 2 / 8, y: view.frame.minY + 50, width: 200, height: 30)
+        segmentedControl.selectedSegmentIndex = 0
+        didChangeSegment(segmentedControl)
     }
     
     @IBAction func didChangeSegment(_ sender: UISegmentedControl) {
@@ -102,7 +100,7 @@ class ViewController: UIViewController {
             tableViewXcode.alpha = 1
             tableViewSwift.alpha = 0
         }
-        else if sender.selectedSegmentIndex == 2 {
+        else if sender.selectedSegmentIndex == 3 {
             containerXcode.alpha = 0
             containerSwift.alpha = 0
             labelXcode.alpha = 0
