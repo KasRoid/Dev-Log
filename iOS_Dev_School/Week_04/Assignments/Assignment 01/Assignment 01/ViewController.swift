@@ -56,8 +56,8 @@ class ViewController: UIViewController, UIAdaptivePresentationControllerDelegate
         present(nextVC, animated: true)
     }
     
-    func presentationControllerDidAttemptToDismiss(_ presentationController: UIPresentationController) {
-        print("Attemped")
-        dismiss(animated: true)
-    }
+//    func presentationControllerDidAttemptToDismiss(_ presentationController: UIPresentationController) {
+//        print("Attemped")
+//        dismiss(animated: true)
+//    }
 }

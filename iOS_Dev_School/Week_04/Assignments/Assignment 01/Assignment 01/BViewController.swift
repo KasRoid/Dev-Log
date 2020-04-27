@@ -16,7 +16,7 @@ class BViewController: UIViewController, UIAdaptivePresentationControllerDelegat
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.presentationController?.delegate = self
+//        self.navigationController?.presentationController?.delegate = self
         
         view.backgroundColor = .lightGray
         
