@@ -10,6 +10,7 @@
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
+|  Week 04  |  Xcode: ViewController  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_04)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_04/Assignments) |
 |  Week 03  |  Swift: Advanced  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_03)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_03/Assignments) |
 |  Week 02  |  Swift: Basics    | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_02)|[My Solution](https://github.com/KasRoid/myStudyHistory/tree/master/iOS_Dev_School/Week_02/Assignments) |
 |  Week 01  |  Warm up          | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_01)|[My Solution](https://github.com/KasRoid/myStudyHistory/tree/master/iOS_Dev_School/Week_01/Assignments) |
