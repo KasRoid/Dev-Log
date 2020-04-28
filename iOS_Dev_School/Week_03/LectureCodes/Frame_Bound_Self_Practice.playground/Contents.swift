@@ -12,7 +12,19 @@ class MyViewController : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let greenView = setupSuperview()
+        let redView = setupSubview(superView: greenView)
         
+//        greenView.frame.origin = CGPoint(x: 0, y: 0)
+        greenView.bounds.origin = CGPoint(x: 100, y: 100)
+        
+        print("--greenView--")
+        print(greenView.frame)
+        print(greenView.bounds)
+        print()
+        print("--redView--")
+        print(redView.frame)
+        print(redView.bounds)
     }
     
     func setupSuperview() -> UIView {

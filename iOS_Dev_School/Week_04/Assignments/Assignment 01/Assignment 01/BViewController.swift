@@ -17,6 +17,7 @@ class BViewController: UIViewController, UIAdaptivePresentationControllerDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
 //        self.navigationController?.presentationController?.delegate = self
+        self.presentationController?.delegate = self
         
         view.backgroundColor = .lightGray
         
@@ -44,12 +45,12 @@ class BViewController: UIViewController, UIAdaptivePresentationControllerDelegat
         dismiss(animated: true)
     }
         
-//    func presentationControllerDidDismiss(_ presentationController: UIPresentationController) {
-//        counter += 1
-//        labelA.text = String(counter)
-//        print("dismissed")
-//        dismiss(animated: true)
-//    }
+    func presentationControllerDidDismiss(_ presentationController: UIPresentationController) {
+        counter += 1
+        labelA.text = String(counter)
+        print("dismissed")
+        dismiss(animated: true)
+    }
     
 //    func presentationControllerDidAttemptToDismiss(_ presentationController: UIPresentationController) {
 //        print("Attemped")
