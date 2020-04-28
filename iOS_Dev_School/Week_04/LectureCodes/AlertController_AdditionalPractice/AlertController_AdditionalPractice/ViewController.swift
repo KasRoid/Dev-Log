@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var btnAdd = UIButton(type: .contactAdd)
-    var labelNumber = UILabel()
     var counter = 0 {
         didSet {
             undoNum = oldValue
@@ -21,9 +19,17 @@ class ViewController: UIViewController {
         }
     }
     var undoNum = 0
-
+    var memory = 0
+    
+    var textViewController = UIViewController()
+    var btnAdd = UIButton(type: .contactAdd)
+    var labelNumber = UILabel()
+    var segmentedControl = UISegmentedControl(items: ["Calc", "Text"])
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+            
         
         btnAdd.frame.origin = CGPoint(x: view.frame.midX - 13, y: 300)
         btnAdd.tintColor = .magenta
@@ -35,6 +41,19 @@ class ViewController: UIViewController {
         labelNumber.sizeToFit()
         labelNumber.center = view.center
         view.addSubview(labelNumber)
+        
+        
+        segmentedControl.frame = CGRect(x: 0, y: 50, width: view.frame.width, height: 60)
+        segmentedControl.selectedSegmentTintColor = .systemBlue
+        segmentedControl.selectedSegmentIndex = 0
+        view.addSubview(segmentedControl)
+    }
+    
+    @objc func didChangeSegmentedController(_ sender: UISegmentedControl) {
+        if sender.selectedSegmentIndex == 0 {
+            
+        }
+        
     }
     
     @objc func btnAdd(_ sender: UIButton) {
@@ -42,9 +61,28 @@ class ViewController: UIViewController {
         alertController.addTextField(configurationHandler: nil)
         
         let addIt = UIAlertAction(title: "Add", style: .default, handler: {
-            _ in var placeHolder 
+            _ in var placeHolder = 1
+            if self.memory != 0 {
+                placeHolder = self.memory
+                if let i = alertController.textFields?.first,
+                    let j = i.text,
+                    let k = Int(j) {
+                    placeHolder = k
+                    }
+            }
+            else {
+                    if let i = alertController.textFields?.first,
+                    let j = i.text,
+                    let k = Int(j) {
+                    placeHolder = k
+                        self.memory = placeHolder
+                    }
+                }
+        self.counter += placeHolder
         })
-        let undo = UIAlertAction(title: "Undo", style: .default, handler: nil)
+        let undo = UIAlertAction(title: "Undo", style: .default, handler: {
+            _ in self.counter = self.undoNum
+        })
         let reset = UIAlertAction(title: "Reset", style: .destructive, handler: {
             _ in self.counter = 0
         })
