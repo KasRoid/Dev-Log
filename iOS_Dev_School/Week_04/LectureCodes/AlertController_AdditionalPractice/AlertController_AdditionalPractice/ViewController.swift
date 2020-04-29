@@ -31,8 +31,6 @@ class ViewController: UIViewController {
     var labelText = UITextView()
     
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
             
