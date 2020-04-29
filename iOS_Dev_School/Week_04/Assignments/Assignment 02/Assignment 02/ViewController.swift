@@ -10,7 +10,11 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     
-    var textInput = UITextField()
+    var textInput = UITextField() {
+        didSet {
+            resultLabel.text = textInput.text
+        }
+    }
     var resultLabel = UILabel()
 
     override func viewDidLoad() {
@@ -40,7 +44,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     @objc func textFieldDidChanged(_ textField: UITextField) {
-                resultLabel.text = textInput.text
+//                resultLabel.text = textInput.text
     }
     
     @objc func textFieldDidEndOnExit(_ textField: UITextField) {

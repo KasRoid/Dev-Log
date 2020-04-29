@@ -13,6 +13,7 @@
 		429AE245245970D80025CBF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429AE243245970D80025CBF2 /* Main.storyboard */; };
 		429AE247245970DC0025CBF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 429AE246245970DC0025CBF2 /* Assets.xcassets */; };
 		429AE24A245970DC0025CBF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429AE248245970DC0025CBF2 /* LaunchScreen.storyboard */; };
+		429AE252245978CA0025CBF2 /* LoggedinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429AE251245978CA0025CBF2 /* LoggedinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		429AE246245970DC0025CBF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		429AE249245970DC0025CBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		429AE24B245970DC0025CBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429AE251245978CA0025CBF2 /* LoggedinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				429AE23D245970D80025CBF2 /* AppDelegate.swift */,
 				429AE23F245970D80025CBF2 /* SceneDelegate.swift */,
 				429AE241245970D80025CBF2 /* ViewController.swift */,
+				429AE251245978CA0025CBF2 /* LoggedinViewController.swift */,
 				429AE243245970D80025CBF2 /* Main.storyboard */,
 				429AE246245970DC0025CBF2 /* Assets.xcassets */,
 				429AE248245970DC0025CBF2 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				429AE242245970D80025CBF2 /* ViewController.swift in Sources */,
 				429AE23E245970D80025CBF2 /* AppDelegate.swift in Sources */,
 				429AE240245970D80025CBF2 /* SceneDelegate.swift in Sources */,
+				429AE252245978CA0025CBF2 /* LoggedinViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
