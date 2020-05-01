@@ -117,7 +117,7 @@ class ViewController: UIViewController {
     }
     
     @objc func payButtonFunction () {
-        guard totalPayment < moneyOwned else {
+        guard totalPayment <= moneyOwned else {
             let alertController = UIAlertController(title: "경고", message: "소지금액이 부족합니다.", preferredStyle: .alert)
             let confirmAction = UIAlertAction(title: "확인", style: .default, handler: nil)
             
