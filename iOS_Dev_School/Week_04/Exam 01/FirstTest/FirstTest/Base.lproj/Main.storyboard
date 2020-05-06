@@ -165,14 +165,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="짬뽕amountLabel" destination="2pF-iS-PMd" id="owI-om-lTq"/>
                         <outlet property="짜장면amountLabel" destination="KAR-ik-ttZ" id="NDh-lb-1P2"/>
+                        <outlet property="짬뽕amountLabel" destination="2pF-iS-PMd" id="owI-om-lTq"/>
                         <outlet property="탕수육amountLabel" destination="oEi-zG-1YE" id="3SP-5W-plQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="132.26600985221674"/>
+            <point key="canvasLocation" x="159" y="70"/>
         </scene>
     </scenes>
 </document>

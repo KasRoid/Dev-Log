@@ -22,7 +22,7 @@ type(of: anyArr[1])
 type(of: anyArr[2])
 
 
-// Generic
+// Generic : any 타입으로 들어온 데이터를 Int 나 String 등으로 변경하여 그에 맞는 속성을 사용할 수 있게 해준다.
 func printGenericInfo<T>(_ value: T) {
   let types = type(of: value)
   print("'\(value)' of type '\(types)'")
