@@ -1,5 +1,5 @@
 #### Week 04 : 2020.04.27 - 2020.05.01 ####
-#### [Assignments for week 4](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_03/Assignments)
+#### [Assignments for week 4](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_04/Assignments)
 |     |Contents               |Links |
 |-----|-----------------------|------|
 |Day 20| Exam 01 | - |
