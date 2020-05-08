@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Assignment_02_ManualSegue" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="110" translatesAutoresizingMaskIntoConstraints="NO" id="ZT5-66-z5j">
+                                <rect key="frame" x="180" y="266" width="54" height="364"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avo-bV-z8m">
+                                        <rect key="frame" x="0.0" y="0.0" width="54" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Dog"/>
+                                        <connections>
+                                            <action selector="performManualSegueWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zz1-tw-tEn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWf-5P-Flo">
+                                        <rect key="frame" x="0.0" y="158" width="54" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Cat"/>
+                                        <connections>
+                                            <action selector="performManualSegueWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="344-jQ-57M"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q06-g9-Kqe">
+                                        <rect key="frame" x="0.0" y="316" width="54" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Bird"/>
+                                        <connections>
+                                            <action selector="performManualSegueWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h1p-hR-4ui"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-LO-zm7">
+                                <rect key="frame" x="197.5" y="124" width="19" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="uYf-LO-zm7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0XZ-AJ-cxW"/>
+                            <constraint firstItem="ZT5-66-z5j" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dNr-Ew-YI5"/>
+                            <constraint firstItem="ZT5-66-z5j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kfh-BN-skR"/>
+                            <constraint firstItem="uYf-LO-zm7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="ogX-ZL-6uY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="mainLabel" destination="uYf-LO-zm7" id="dRM-0a-kQL"/>
+                        <segue destination="3nB-tj-rof" kind="presentation" identifier="dog" id="zBP-sE-WUJ"/>
+                        <segue destination="3nB-tj-rof" kind="presentation" identifier="cat" id="5oz-y0-19v"/>
+                        <segue destination="3nB-tj-rof" kind="presentation" identifier="bird" id="7cE-0f-nPF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="103"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="AmH-rK-jhx">
+            <objects>
+                <viewController id="3nB-tj-rof" customClass="SecondViewController" customModule="Assignment_02_ManualSegue" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Do0-aA-sJ3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdJ-Xp-Qyn">
+                                <rect key="frame" x="97" y="119" width="220" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Add ONE for ALL">
+                                    <color key="titleColor" red="0.6148123741" green="0.1017967239" blue="0.1002308354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vgn-bQ-PCR">
+                                <rect key="frame" x="37" y="222" width="340" height="398"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bN9-cG-rND">
+                                <rect key="frame" x="169" y="688" width="76" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="return"/>
+                                <connections>
+                                    <segue destination="UKt-by-6ZS" kind="unwind" unwindAction="unwildToViewControllerSegue:" id="uv1-7B-7DP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="bN9-cG-rND" firstAttribute="top" secondItem="vgn-bQ-PCR" secondAttribute="bottom" constant="68" id="E8a-0l-J6R"/>
+                            <constraint firstItem="bN9-cG-rND" firstAttribute="centerX" secondItem="Do0-aA-sJ3" secondAttribute="centerX" id="HxZ-kt-w2h"/>
+                            <constraint firstItem="bN9-cG-rND" firstAttribute="centerX" secondItem="zdJ-Xp-Qyn" secondAttribute="centerX" id="SWT-s1-uo9"/>
+                            <constraint firstItem="vgn-bQ-PCR" firstAttribute="top" secondItem="zdJ-Xp-Qyn" secondAttribute="bottom" constant="55" id="T0C-Qx-OLh"/>
+                            <constraint firstItem="vgn-bQ-PCR" firstAttribute="centerY" secondItem="Do0-aA-sJ3" secondAttribute="centerY" id="cH4-Tl-tmY"/>
+                            <constraint firstItem="ZKY-SA-J22" firstAttribute="bottom" secondItem="bN9-cG-rND" secondAttribute="bottom" constant="72" id="eJs-QB-Ysh"/>
+                            <constraint firstItem="bN9-cG-rND" firstAttribute="centerX" secondItem="vgn-bQ-PCR" secondAttribute="centerX" id="mLm-br-Tyr"/>
+                            <constraint firstItem="vgn-bQ-PCR" firstAttribute="leading" secondItem="ZKY-SA-J22" secondAttribute="leading" constant="37" id="tIE-PJ-S1R"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZKY-SA-J22"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="vgn-bQ-PCR" id="xdb-aB-gZV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yDh-O8-MBa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="UKt-by-6ZS" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="992.75362318840587" y="101.78571428571428"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="7cE-0f-nPF"/>
+    </inferredMetricsTieBreakers>
+</document>
