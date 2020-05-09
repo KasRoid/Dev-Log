@@ -10,6 +10,7 @@
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
+|  Week 06  |  Xcode: Login Page  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_06)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_06/Assignments) |
 |  Week 05  |  Xcode: Storyboard  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_05)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_05/Assignments) |
 |  Week 04  |  Xcode: ViewController  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_04)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_04/Assignments) |
 |  Week 03  |  Swift: Advanced  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_03)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_03/Assignments) |
