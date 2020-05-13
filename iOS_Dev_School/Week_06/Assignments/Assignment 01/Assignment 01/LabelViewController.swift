@@ -21,16 +21,11 @@ class LabelViewController: UIViewController, CustomViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let viewController = presentingViewController as! ViewController
-        viewController.delegate = self
+//        let viewController = presentingViewController as! ViewController
+//        viewController.delegate = self
         view.backgroundColor = .systemBackground
         updateUI()
     }
-    
-//    override func viewWillAppear(_ animated: Bool) {
-//        let viewController = ViewController()
-//        viewController.delegate = self
-//    }
     
     func updateUI() {
         resultLabel.frame.origin = CGPoint(x: view.frame.midX - 175, y: view.frame.midY - 20)

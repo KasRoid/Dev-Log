@@ -51,8 +51,10 @@ class ViewController: UIViewController {
     @objc func buttonPressed(_ sender: UIButton) {
         let anotherVC = LabelViewController()
         anotherVC.modalPresentationStyle = .automatic
+        self.delegate = anotherVC
         if let data = textInput.text {
-            present(anotherVC, animated: true, completion: {self.delegate?.sendText(data: data)})
+            self.delegate?.sendText(data: data)
+            present(anotherVC, animated: true)
         }
     }
 }
