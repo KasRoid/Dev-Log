@@ -92,15 +92,13 @@ class SignupViewController: UIViewController {
         
         // textFields
         idTextField.frame.origin = CGPoint(x: (containerView.frame.midX - 75) - 50, y: 130)
-        containerView.addSubview(idTextField)
         passwordTextField.frame.origin = CGPoint(x: (containerView.frame.midX - 75) - 50, y: 210)
-        containerView.addSubview(passwordTextField)
+        [idTextField, passwordTextField].forEach { containerView.addSubview($0) }
         
         // buttons
         cancelButton.frame.origin = CGPoint(x: (containerView.frame.midX - 75) - 50, y: 300)
-        containerView.addSubview(cancelButton)
         confirmButton.frame.origin = CGPoint(x: (containerView.frame.midX - 75) + 100, y: 300)
-        containerView.addSubview(confirmButton)
+        [cancelButton, confirmButton].forEach { containerView.addSubview($0) }
     }
 
     @objc func cancelButtonPressed(_ sender: UIButton) {

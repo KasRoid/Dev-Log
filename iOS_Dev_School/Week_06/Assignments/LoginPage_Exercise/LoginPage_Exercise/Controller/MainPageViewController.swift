@@ -40,9 +40,8 @@ class MainPageViewController: UIViewController {
     
     func updateUI() {
         mainLabel.frame.origin = CGPoint(x: view.frame.midX - 175, y: view.frame.midY - 125)
-        view.addSubview(mainLabel)
         logoutButton.frame.origin = CGPoint(x: view.frame.midX - 75, y: view.frame.midY - 20)
-        view.addSubview(logoutButton)
+        [mainLabel, logoutButton].forEach { view.addSubview($0) }
     }
 
     @objc func buttonGoBack(_ sender: UIButton) {

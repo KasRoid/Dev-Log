@@ -109,7 +109,6 @@ class LoginPageViewController: UIViewController, UITextFieldDelegate {
         return textField
     }()
     
-    
     // button
     let loginButtonSize = CGSize(width: 320, height: 45)
     lazy var loginButton: UIButton = {
@@ -157,9 +156,8 @@ class LoginPageViewController: UIViewController, UITextFieldDelegate {
         logoImageView.frame.origin = CGPoint(x: view.frame.midX - 125, y: 30)
         view.addSubview(logoImageView)
         userImageView.frame.origin = CGPoint(x: 50, y: 60)
-        loginAreaView.addSubview(userImageView)
         passwordImageView.frame.origin = CGPoint(x: 50, y: 130)
-        loginAreaView.addSubview(passwordImageView)
+        [userImageView, passwordImageView].forEach { loginAreaView.addSubview($0) }
         
         // redDots
         let firstRedDotPosition = CGPoint(x: view.frame.midX - 70, y: 170)
@@ -167,27 +165,21 @@ class LoginPageViewController: UIViewController, UITextFieldDelegate {
         let thirdRedDotPosition = CGPoint(x: view.frame.midX + 40, y: 170)
         
         firstRedDotView.frame.origin = firstRedDotPosition
-        view.addSubview(firstRedDotView)
         secondRedDotView.frame.origin = secondRedDotPosition
-        view.addSubview(secondRedDotView)
         thirdRedDotView.frame.origin = thirdRedDotPosition
-        view.addSubview(thirdRedDotView)
+        [firstRedDotView, secondRedDotView, thirdRedDotView].forEach { view.addSubview($0) }
         
         // textFields
         idTextField.frame.origin = CGPoint(x: 100, y: 60)
-        loginAreaView.addSubview(idTextField)
         passwordTextField.frame.origin = CGPoint(x: 100, y: 130)
-        loginAreaView.addSubview(passwordTextField)
         idFieldBarView.frame.origin = CGPoint(x: 100, y: 100)
-        loginAreaView.addSubview(idFieldBarView)
         passwordFieldBarView.frame.origin = CGPoint(x: 100, y: 170)
-        loginAreaView.addSubview(passwordFieldBarView)
+        [idTextField, passwordTextField, idFieldBarView, passwordFieldBarView].forEach { loginAreaView.addSubview($0) }
         
         // buttons
         loginButton.frame.origin = CGPoint(x: 50, y: 210)
-        loginAreaView.addSubview(loginButton)
         signupButton.frame.origin = CGPoint(x: 50, y: 270)
-        loginAreaView.addSubview(signupButton)
+        [loginButton, signupButton].forEach { loginAreaView.addSubview($0) }
     }
     func checkLoginStatus() {
         let userIsAlreadyLoggedIn = UserDefaults.standard.bool(forKey: UserInfo.loggedIn)
@@ -207,7 +199,7 @@ class LoginPageViewController: UIViewController, UITextFieldDelegate {
         self.view.endEditing(true)
         return false
     }
-    
+    // textField character limits
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         guard let textFieldText = textField.text,
             let rangeOfTextToReplace = Range(range, in: textFieldText) else {
