@@ -10,13 +10,13 @@ import UIKit
 
 var loginBrain = LoginBrain()
 
-class LoginPageViewController: UIViewController {
+class LoginPageViewController: UIViewController, UITextFieldDelegate {
     
     var loginAreaView: UIView = {
         let view = UIView()
         return view
     }()
-    
+
     // images
     let loginTextImageSize = CGSize(width: 30, height: 30)
     var logoImageView: UIImageView = {
@@ -41,26 +41,32 @@ class LoginPageViewController: UIViewController {
         return imageView
     }()
     
-    // redDots
+    // redDots 237,34,78
     let redDotsSize = CGSize(width: 30, height: 30)
+    let redDotsColor = UIColor(
+        red: 237 / 255,
+        green: 34 / 255,
+        blue: 78 / 255,
+        alpha: 1.0
+    )
     lazy var firstRedDotView: UIView = {
         let view = UIView()
         view.frame.size = redDotsSize
-        view.backgroundColor = .red
+        view.backgroundColor = redDotsColor
         view.layer.cornerRadius = 5
         return view
     }()
     lazy var secondRedDotView: UIView = {
         let view = UIView()
         view.frame.size = redDotsSize
-        view.backgroundColor = .red
+        view.backgroundColor = redDotsColor
         view.layer.cornerRadius = 5
         return view
     }()
     lazy var thirdRedDotView: UIView = {
         let view = UIView()
         view.frame.size = redDotsSize
-        view.backgroundColor = .red
+        view.backgroundColor = redDotsColor
         view.layer.cornerRadius = 5
         return view
     }()
@@ -127,13 +133,18 @@ class LoginPageViewController: UIViewController {
         return button
     }()
     
+    
+    // MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        updateUI()
         
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
         
+        idTextField.delegate = self
+        passwordTextField.delegate = self
+        
+        updateUI()
         checkLoginStatus()
     }
 
@@ -188,10 +199,30 @@ class LoginPageViewController: UIViewController {
         }
     }
     
+    // TextField delegate
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        textField.becomeFirstResponder()
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        guard let textFieldText = textField.text,
+            let rangeOfTextToReplace = Range(range, in: textFieldText) else {
+                return false
+        }
+        let substringToReplace = textFieldText[rangeOfTextToReplace]
+        let count = textFieldText.count - substringToReplace.count + string.count
+        return count <= 4
+    }
+    
+    // button action
     @objc func buttonPressed(_ sender: UIButton) {
         let id = idTextField.text ?? ""
         let pw = passwordTextField.text ?? ""
-        let isCorrect = loginBrain.loginCheck(id: id, pw: pw)
+        let isCorrect = loginBrain.loginCheck(id: id, pw: pw) && id.count >= 4 && pw.count >= 4
         if isCorrect {
             UserDefaults.standard.set(isCorrect, forKey: UserInfo.loggedIn)
             let nextVC = MainPageViewController()

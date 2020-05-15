@@ -102,7 +102,7 @@ class SignupViewController: UIViewController {
         confirmButton.frame.origin = CGPoint(x: (containerView.frame.midX - 75) + 100, y: 300)
         containerView.addSubview(confirmButton)
     }
-    
+
     @objc func cancelButtonPressed(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
         
@@ -116,10 +116,23 @@ class SignupViewController: UIViewController {
                 present(typeIDAlert, animated: true, completion: nil)
                 print("No ID")
             }
+            else if id.count <= 3 {
+                let typeIDAlert = UIAlertController(title: "경고", message: "아이디를 4자 이상 입력해주세요", preferredStyle: UIAlertController.Style.alert)
+                let confirmAction = UIAlertAction(title: "확인", style: UIAlertAction.Style.default, handler: nil)
+                typeIDAlert.addAction(confirmAction)
+                present(typeIDAlert, animated: true, completion: nil)
+            }
             else {
                 if let pw = passwordTextField.text {
                     if pw == "" {
-                        let typeIDAlert = UIAlertController(title: "경고", message: "비밀번호를를 입력해주세요", preferredStyle: UIAlertController.Style.alert)
+                        let typeIDAlert = UIAlertController(title: "경고", message: "비밀번호를 입력해주세요", preferredStyle: UIAlertController.Style.alert)
+                        let confirmAction = UIAlertAction(title: "확인", style: UIAlertAction.Style.default, handler: nil)
+                        typeIDAlert.addAction(confirmAction)
+                        present(typeIDAlert, animated: true, completion: nil)
+                        print("No PW")
+                    }
+                    else if pw.count <= 3 {
+                        let typeIDAlert = UIAlertController(title: "경고", message: "비밀번호를 4자 이상 입력해주세요", preferredStyle: UIAlertController.Style.alert)
                         let confirmAction = UIAlertAction(title: "확인", style: UIAlertAction.Style.default, handler: nil)
                         typeIDAlert.addAction(confirmAction)
                         present(typeIDAlert, animated: true, completion: nil)
