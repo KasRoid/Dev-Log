@@ -140,8 +140,7 @@ class LoginPageViewController: UIViewController, UITextFieldDelegate {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
         
-        idTextField.delegate = self
-        passwordTextField.delegate = self
+        [idTextField, passwordTextField].forEach { $0.delegate = self }
         
         updateUI()
         checkLoginStatus()

@@ -138,7 +138,7 @@ class SignupViewController: UIViewController {
                     }
                     else {
                         let typeIDAlert = UIAlertController(title: "가입완료", message: "정상적으로 가입되었습니다", preferredStyle: UIAlertController.Style.alert)
-                        let confirmAction = UIAlertAction(title: "확인", style: UIAlertAction.Style.default, handler: {ACTION in self.presentingViewController?.dismiss(animated: true)})
+                        let confirmAction = UIAlertAction(title: "확인", style: UIAlertAction.Style.default) { ACTION in self.presentingViewController?.dismiss(animated: true) }
                         typeIDAlert.addAction(confirmAction)
                         present(typeIDAlert, animated: true, completion: nil)
                         print(id, pw)
