@@ -10,8 +10,8 @@
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
-|  Week 08  |  TableView  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_08)|
-|  Week 07  |  Build Calculator  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_07)|
+|  Week 08  |  TableView  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_08)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_08/Assignments) |
+|  Week 07  |  Build Calculator  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_07)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_07/Assignments) |
 |  Week 06  |  Create Login Page  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_06)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_06/Assignments) |
 |  Week 05  |  Xcode: Storyboard  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_05)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_05/Assignments) |
 |  Week 04  |  Xcode: ViewController  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_04)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_04/Assignments) |
