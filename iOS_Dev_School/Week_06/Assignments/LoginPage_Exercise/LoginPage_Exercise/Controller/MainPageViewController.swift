@@ -32,6 +32,7 @@ class MainPageViewController: UIViewController {
         return button
     }()
 
+    // MARK: - Interface
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -43,7 +44,8 @@ class MainPageViewController: UIViewController {
         logoutButton.frame.origin = CGPoint(x: view.frame.midX - 75, y: view.frame.midY - 20)
         [mainLabel, logoutButton].forEach { view.addSubview($0) }
     }
-
+    
+    // MARK: - Actions
     @objc func buttonGoBack(_ sender: UIButton) {
         if presentingViewController == nil {
             UserDefaults.standard.set(false, forKey: UserInfo.loggedIn)
@@ -64,3 +66,4 @@ class MainPageViewController: UIViewController {
     }
     
 }
+

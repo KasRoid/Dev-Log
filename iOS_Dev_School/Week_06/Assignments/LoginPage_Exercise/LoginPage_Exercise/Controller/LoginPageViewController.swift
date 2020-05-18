@@ -133,7 +133,7 @@ class LoginPageViewController: UIViewController, UITextFieldDelegate {
     }()
     
     
-    // MARK: - viewDidLoad
+    // MARK: - Interface
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -190,7 +190,7 @@ class LoginPageViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
-    // TextField delegate
+    // MARK: - TextField delegate
     func textFieldDidBeginEditing(_ textField: UITextField) {
         textField.becomeFirstResponder()
     }
@@ -206,10 +206,10 @@ class LoginPageViewController: UIViewController, UITextFieldDelegate {
         }
         let substringToReplace = textFieldText[rangeOfTextToReplace]
         let count = textFieldText.count - substringToReplace.count + string.count
-        return count <= 4
+        return count <= 16
     }
     
-    // button action
+    // MARK: button action
     @objc func buttonPressed(_ sender: UIButton) {
         let id = idTextField.text ?? ""
         let pw = passwordTextField.text ?? ""
