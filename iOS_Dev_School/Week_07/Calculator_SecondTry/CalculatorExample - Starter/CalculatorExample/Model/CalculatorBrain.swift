@@ -18,10 +18,15 @@ struct CalculatorBrain {
     var storeLastOperator = ""
     var previousNumberInString = ""
     var displayOnScreen = ""
+    var opreationCounter = 0 // 연산자가 연속으로 들어오는지 확인하기 위한 카운터
+    var negativeAvailable = true // 음수를 사용 가능한 상황 지정
     
     mutating func connectInputInString() {
+        if displayOnScreen.count > 13 {
+            return
+        }
         var placeHolder = ""
-        if operatorInput == "-" && displayOnScreen == "" { // 최초에 마이너스 기호를 입력받았을 경우
+        if operatorInput == "-" && displayOnScreen == "" && negativeAvailable { // 최초에 마이너스 기호를 입력받았을 경우
             displayOnScreen += "-"
             operatorInput = "" // 다음 연산자를 정상적으로 입력받기 위하여 연산자 저장변수 초기화
             print("Negative Value activated")
@@ -54,19 +59,19 @@ struct CalculatorBrain {
             if previousNumberInString.isEmpty { // 12 + = 24 실행을 위한 코드
                 previousNumberInString = displayOnScreen
             }
-            guard let previousValue = Double(previousNumberInString), let currentValue = Double(displayOnScreen) else {
+            guard let oldValue = Double(previousNumberInString), let newValue = Double(displayOnScreen) else {
                 print("Calculate func_Guard Activated")
                 return
             }
             switch storeLastOperator {
             case "+":
-                displayOnScreen = String(previousValue + currentValue)
+                displayOnScreen = String(oldValue + newValue)
             case "-":
-                displayOnScreen = String(previousValue - currentValue)
+                displayOnScreen = String(oldValue - newValue)
             case "×":
-                displayOnScreen = String(previousValue * currentValue)
+                displayOnScreen = String(oldValue * newValue)
             case "÷":
-                displayOnScreen = String(previousValue / currentValue)
+                displayOnScreen = String(oldValue / newValue)
             default:
                 numberInput = ""
                 print(" = calculate_else_There is no operator.")
@@ -75,22 +80,26 @@ struct CalculatorBrain {
             operatorInput = "" // 초기화
             storeLastOperator = ""
         }
-        else if operatorInput != "" { // '=' 을 제외한 다른 모든 연산자가 할당되어 있을 경우
-            guard let previousValue = Double(previousNumberInString), let currentValue = Double(displayOnScreen) else {
+        else if operatorInput != "" { // '=' 을 제외한 연산자가 할당되어 있을 경우
+            guard let oldValue = Double(previousNumberInString), let newValue = Double(displayOnScreen) else {
                 print("Calculate func_Guard Activated")
+                return
+            }
+            if opreationCounter >= 1 { // operator 가 연속적으로 입력될 경우 진행하지 못하도록 설정
+                print("Counter blocking activated")
                 return
             }
             switch storeLastOperator {
             case "+":
-                displayOnScreen = String(previousValue + currentValue)
+                displayOnScreen = String(oldValue + newValue)
             case "-":
-                displayOnScreen = String(previousValue - currentValue)
+                displayOnScreen = String(oldValue - newValue)
             case "×":
-                displayOnScreen = String(previousValue * currentValue)
+                displayOnScreen = String(oldValue * newValue)
             case "÷":
-                displayOnScreen = String(previousValue / currentValue)
+                displayOnScreen = String(oldValue / newValue)
             default:
-                print("calculate_else_There is no operator.")
+                print("calculate else_There is no operator.")
             }
             storeLastOperator = ""
         }

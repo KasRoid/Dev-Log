@@ -50,7 +50,6 @@ final class ViewController: UIViewController {
         if let value = Double(calculatorBrain.displayOnScreen) {
             displayLabel.text = formatter.string(from: value as NSNumber)
         }
-//        displayLabel.text = calculatorBrain.displayOnScreen
         if displayLabel.text == "" { // 만약 레이블의 값이 없을 경우 0 으로 표시
             displayLabel.text = "0"
         }
@@ -68,6 +67,7 @@ final class ViewController: UIViewController {
             if title != "=" { // 12 + = 24 실행을 위한 코드
                 calculatorBrain.storeLastOperator = title
             }
+            calculatorBrain.opreationCounter += 1
             print("Current Operater: ", calculatorBrain.operatorInput)
             updateUI()
         case "AC":
@@ -77,11 +77,15 @@ final class ViewController: UIViewController {
             calculatorBrain.previousNumberInString = ""
             calculatorBrain.displayOnScreen = ""
             displayLabel.text = ""
+            calculatorBrain.opreationCounter = 0
+            calculatorBrain.negativeAvailable = true
             print("Button AC pressed")
             updateUI()
         default:
             calculatorBrain.numberInput = title
+            calculatorBrain.opreationCounter = 0
             print("Current numberInput: ", calculatorBrain.numberInput)
+            calculatorBrain.negativeAvailable = false
             updateUI()
         }
     }
