@@ -20,10 +20,14 @@ struct CalculatorBrain {
     var displayOnScreen = ""
     var opreationCounter = 0 // 연산자가 연속으로 들어오는지 확인하기 위한 카운터
     var negativeAvailable = true // 음수를 사용 가능한 상황 지정
+    var maxDigits = 13
     
     mutating func connectInputInString() {
-        if displayOnScreen.count > 13 {
-            return
+        if displayOnScreen.count > maxDigits {
+            displayOnScreen = String(displayOnScreen.dropLast())
+            if displayOnScreen.count > maxDigits {
+                return
+            }
         }
         var placeHolder = ""
         if operatorInput == "-" && displayOnScreen == "" && negativeAvailable { // 최초에 마이너스 기호를 입력받았을 경우

@@ -42,6 +42,8 @@ final class ViewController: UIViewController {
     func updateUI() {
         [numberZero, numberOne, numberTwo, numberThree, numberFour, numberFive, numberSix, numberSeven, numberEight, numberNine, symbolAdd, symbolSubtract, symbolMultiply, symbolDivide, symbolEqual, btnReset].forEach { ($0)?.layer.cornerRadius = 45 }
         
+        displayLabel.adjustsFontSizeToFitWidth = true
+        
         let formatter = NumberFormatter()
         formatter.numberStyle = .decimal //.spellout
         formatter.minimumFractionDigits = 0 // 최소 소수점 단위

@@ -35,8 +35,7 @@ class MainViewController: UIViewController {
 //    var btnArray = ["btn1", "btn2", "btn3", "btn4", "btn5", "btn6", "btn7", "btn8", "btn9", "btn0", "btnAdd", "btnSubtract", "btnMultiply", "btnDivide", "btnEqual", "btnReset"]
     
     var btnWithTitleLabelArray = ["1","2","3","+","4","5","6","-","7","8","9","×","0","AC","=","÷"] // 이후 함수에서 자동적으로 알맞은 스택뷰에 할당될 수 있도록 배열
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .darkGray
@@ -129,17 +128,15 @@ class MainViewController: UIViewController {
             return
         }
         switch buttonTitle {
-        case "+", "-", "×", "÷" :
+        case "+", "-", "×", "÷", "=" :
             calculateBrain.operatorInputInString = buttonTitle
-            print("Operator \(buttonTitle) button is pressed")
-        case "=" :
-            print("Equal button is pressed")
+//            print("Operator \(buttonTitle) button is pressed")
         case "AC" :
             calculateBrain.resetButtonActivated()
-            print("AC button is pressed")
+//            print("AC button is pressed")
         default:
             calculateBrain.digitInputInString = buttonTitle
-            print("Number '\(buttonTitle)' is pressed")
+//            print("Number '\(buttonTitle)' is pressed")
         }
         updateUI()
     }
