@@ -1,11 +1,11 @@
 ## Here is my footage 😎 as an iOS developer ##
----
+
 #### Check out my Notion! There are plenty of my notes and useful tips I learned while studying. ####
 #### [My Blog: Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55) ####
 
 
 ---
-Additional Works
+#### Additional Works ####
 
 [Stanford CS193p: Developing Apps for iOS - Spring 2020](https://github.com/KasRoid/CS193p)
 
