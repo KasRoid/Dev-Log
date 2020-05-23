@@ -6,9 +6,13 @@
 
 ---
 Additional Works
+
 [Stanford CS193p: Developing Apps for iOS - Spring 2020](https://github.com/KasRoid/CS193p)
+
 [The_Complete_iOS_App_Development_Bootcamp](https://github.com/KasRoid/The_Complete_iOS_App_Development_Bootcamp)
+
 [Instagram_Clone_Udemy](https://github.com/KasRoid/Instagram_Clone_Udemy)
+
 [Storyboard Design Practice](https://github.com/KasRoid/Intro_to_iOS_Development)
 
 ---
