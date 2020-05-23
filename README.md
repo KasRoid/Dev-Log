@@ -1,8 +1,10 @@
 ## Here is my footage 😎 ##
 ---
-##### Check out my Notion! There are plenty of my notes and useful tips I learned while studying. #####
-##### [My Blog: Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55) #####
+#### Check out my Notion! There are plenty of my notes and useful tips I learned while studying. ####
+#### [My Blog: Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55) ####
 
+
+Additional Works
 [Storyboard Design Practice](https://github.com/KasRoid/Intro_to_iOS_Development)
 
 ---
