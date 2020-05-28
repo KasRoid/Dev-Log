@@ -36,7 +36,7 @@ final class ViewController: UIViewController {
     }
     
     private func setupUI() {
-        for keys in itemsInStock.keys {
+        for keys in itemsInStock.keys.sorted() {
             itemTitle.append(keys)
         }
         tableView.dataSource = self
@@ -62,8 +62,6 @@ extension ViewController: UITableViewDataSource {
         let imageOfProducts = itemsInStock[nameOfProducts]![0]
         let quantityOfProducts = String(itemsInStock[nameOfProducts]![1])
         cell.btnCount.tag = indexPath.row
-        cell.countLabel.tag = indexPath.row
-        cell.countLabel.text = itemsInStock[nameOfProducts]![1]
         
         cell.imageView?.image = UIImage(named: imageOfProducts)
         cell.textLabel?.text = nameOfProducts

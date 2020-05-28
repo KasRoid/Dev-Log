@@ -67,29 +67,19 @@ extension TableViewAccessoryType: UITableViewDataSource {
         }
         return cell
     }
+}
+
+extension TableViewAccessoryType: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if checkStatus[indexPath.row] == false {
             checkStatus[indexPath.row] = true
             tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
-            print(checkStatus)
         }
         else {
             checkStatus[indexPath.row] = false
             tableView.cellForRow(at: indexPath)?.accessoryType = .none
         }
         tableView.reloadData()
-    }
-}
-
-extension TableViewAccessoryType: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
-        func selectItem() -> IndexPath {
-            return indexPath
-        }
-        return selectItem()
-    }
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        
     }
 }

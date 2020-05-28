@@ -28,11 +28,6 @@ final class ItemCell: UITableViewCell {
 //        fatalError("init(coder:) has not been implemented")
     }
     
-    override func prepareForReuse() {
-        super.prepareForReuse()
-        
-    }
-    
     override func layoutSubviews() {
         super.layoutSubviews()
         btnCount.frame = CGRect(x: frame.width - 80, y: 15, width: 100, height: frame.height - 30)
