@@ -9,24 +9,24 @@
 import UIKit
 
 final class TableViewNumbers: UIViewController {
-  
-  /***************************************************
-   1부터 50까지의 숫자 출력하기
-   ***************************************************/
-  
-  override var description: String { "Practice 1 - Numbers" }
+    
+    /***************************************************
+     1부터 50까지의 숫자 출력하기
+     ***************************************************/
+    
+    override var description: String { "Practice 1 - Numbers" }
     
     var data = Array(1...50)
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
     
-    let tableView = UITableView(frame: view.frame)
-    view.addSubview(tableView)
-    
-    tableView.dataSource = self
-    tableView.register(UITableViewCell.self, forCellReuseIdentifier: "CellID")
-  }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let tableView = UITableView(frame: view.frame)
+        view.addSubview(tableView)
+        
+        tableView.dataSource = self
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "CellID")
+    }
 }
 
 extension TableViewNumbers: UITableViewDataSource {
