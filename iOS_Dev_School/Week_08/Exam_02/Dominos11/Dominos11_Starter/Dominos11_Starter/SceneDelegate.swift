@@ -33,7 +33,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(windowScene: windowScene)
         window?.rootViewController = tabBarController
-        window?.backgroundColor = .systemBackground
+        window?.backgroundColor = .white
         window?.makeKeyAndVisible()
     }
     

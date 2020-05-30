@@ -24,6 +24,7 @@ class CustomCell: UITableViewCell {
         super.layoutSubviews()
         titleImageView.frame = contentView.frame
         titleImageView.contentMode = .scaleToFill
+        titleImageView.backgroundColor = .white
         titleImageView.image = UIImage(named: products.productsTitle[indexPathFromCategoryViewController.row])
         contentView.addSubview(titleImageView)
     }

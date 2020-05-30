@@ -26,6 +26,7 @@ class ProductViewController: UIViewController {
         title = products.productsTitle[indexPathFromCategoryViewController.row]
         tableView.frame = view.frame
         tableView.rowHeight = 120
+        tableView.backgroundColor = .white
         tableView.dataSource = self
         tableView.delegate = self
         view.addSubview(tableView)
@@ -43,6 +44,8 @@ extension ProductViewController: UITableViewDataSource {
         let cell = UITableViewCell()
         let nameOfProduct = products.productsTitle[indexPathFromCategoryViewController.row]
         cell.textLabel?.text = products.productsDetail[nameOfProduct]![indexPath.row]
+        cell.textLabel?.textColor = .black
+        cell.backgroundColor = .white
         cell.imageView?.image = UIImage(named: products.productsDetail[nameOfProduct]![indexPath.row])
         return cell
     }

@@ -23,6 +23,7 @@ class CategoryViewController: UIViewController {
         navigationItem.title = "Domino's"
         categoryTableView.sectionHeaderHeight = 300
         categoryTableView.rowHeight = 100
+        categoryTableView.backgroundColor = .white
         categoryTableView.dataSource = self
         categoryTableView.delegate = self
         categoryTableView.register(CustomCell.self, forCellReuseIdentifier: "CustomCell")

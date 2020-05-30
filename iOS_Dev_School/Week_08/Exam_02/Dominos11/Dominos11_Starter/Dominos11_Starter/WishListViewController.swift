@@ -45,7 +45,7 @@ class WishListViewController: UIViewController {
         // TableView Attributes
         tableView.frame = view.frame
         tableView.rowHeight = 100
-        
+        tableView.backgroundColor = .white
 //        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "CellID") // 다른 테이블 스타일을 쓸 때는 비활성화해야하는듯??
         tableView.dataSource = self
         view.addSubview(tableView)
@@ -81,6 +81,9 @@ extension WishListViewController: UITableViewDataSource {
         var cell = UITableViewCell(style: UITableViewCell.CellStyle.subtitle, reuseIdentifier: "CellID")
         cell = tableView.dequeueReusableCell(withIdentifier: "CellID") ?? UITableViewCell(style: .subtitle, reuseIdentifier: "CellID")
         cell.textLabel?.text = products.itemOnCart[indexPath.row]
+        cell.backgroundColor = .white
+        cell.textLabel?.textColor = .black
+        cell.detailTextLabel?.textColor = .gray
         cell.imageView?.image = UIImage(named: products.itemOnCart[indexPath.row])
         if let value = products.receipt[products.itemOnCart[indexPath.row]] {
                 cell.detailTextLabel?.text = "주문수량: \(value)"
