@@ -5,7 +5,7 @@
 
 
 ---
-#### Additional Courses I'm taking... ####
+#### Additional iOS Courses I'm taking... ####
 I also have Notion pages for each of below classes. If you are interested, please check it out too!
 
 [Stanford CS193p: Developing Apps for iOS - Spring 2020](https://github.com/KasRoid/CS193p)
@@ -22,12 +22,12 @@ I also have Notion pages for each of below classes. If you are interested, pleas
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
-|  Week 09  |  MapKit & Animation | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09/Assignments) |
-|  Week 08  |  TableView  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_08)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_08/Assignments) |
-|  Week 07  |  Build Calculator  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_07)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_07/Assignments) |
-|  Week 06  |  Create Login Page  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_06)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_06/Assignments) |
-|  Week 05  |  Xcode: Storyboard  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_05)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_05/Assignments) |
-|  Week 04  |  Xcode: ViewController  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_04)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_04/Assignments) |
-|  Week 03  |  Swift: Advanced  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_03)|[My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_03/Assignments) |
-|  Week 02  |  Swift: Basics    | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_02)|[My Solution](https://github.com/KasRoid/myStudyHistory/tree/master/iOS_Dev_School/Week_02/Assignments) |
-|  Week 01  |  Warm up          | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_01)|[My Solution](https://github.com/KasRoid/myStudyHistory/tree/master/iOS_Dev_School/Week_01/Assignments) |
+|  Week 09  |  MapKit & Animation      | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09/Assignments) |
+|  Week 08  |  TableView               | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_08) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_08/Assignments) |
+|  Week 07  |  Build Calculator        | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_07) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_07/Assignments) |
+|  Week 06  |  Create Login Page       | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_06) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_06/Assignments) |
+|  Week 05  |  Xcode: Storyboard       | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_05) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_05/Assignments) |
+|  Week 04  |  Xcode: ViewController   | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_04) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_04/Assignments) |
+|  Week 03  |  Swift: Advanced         | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_03) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_03/Assignments) |
+|  Week 02  |  Swift: Basics           | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_02) | [My Solution](https://github.com/KasRoid/myStudyHistory/tree/master/iOS_Dev_School/Week_02/Assignments) |
+|  Week 01  |  Warm up                 | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_01) | [My Solution](https://github.com/KasRoid/myStudyHistory/tree/master/iOS_Dev_School/Week_01/Assignments) |
