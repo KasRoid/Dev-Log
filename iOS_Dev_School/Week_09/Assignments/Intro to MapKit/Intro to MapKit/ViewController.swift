@@ -142,6 +142,37 @@ extension ViewController: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         checkLocationAuthorization()
     }
+    
+    func getDirection() {
+        guard let location = locationManager.location?.coordinate else {
+            // TODO: Inform user we don't have their current location.
+            return
+        }
+        let request = createDirectionRequest(from: location)
+        let directions = MKDirections(request: request)
+        
+        directions.calculate(){ [unowned self] (respose, error) in
+            guard let response = respose else { return } // TODO: Show response not available in an alert
+            for route in response.routes {
+                self.mapView.addOverlay(route.polyline)
+                self.mapView.setVisibleMapRect(route.polyline.boundingMapRect, animated: true)
+            }
+        }
+    }
+    
+    func createDirectionRequest(from coordinate: CLLocationCoordinate2D) -> MKDirections.Request {
+        let destincationCoordinate      = getCenterLocation(for: mapView).coordinate
+        let startingLocation            = MKPlacemark(coordinate: coordinate)
+        let destination                 = MKPlacemark(coordinate: destincationCoordinate)
+        
+        let request                     = MKDirections.Request()
+        request.source                  = MKMapItem(placemark: startingLocation)
+        request.destination             = MKMapItem(placemark: destination)
+        request.requestsAlternateRoutes = true
+        
+        return request
+    }
+    
 }
 
 extension ViewController: MKMapViewDelegate {
