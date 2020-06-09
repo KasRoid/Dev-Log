@@ -110,7 +110,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
         picker.presentingViewController?.dismiss(animated: true)
     }
     
-    // 유저가 이미지를 선택할 시 호출되는 함수. Cancel 시 추가적인 작업이 필요하지 않으면 생략하면 된다.
+    // 유저가 이미지를 선택할 시 호출되는 함수
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         print(info)
         
