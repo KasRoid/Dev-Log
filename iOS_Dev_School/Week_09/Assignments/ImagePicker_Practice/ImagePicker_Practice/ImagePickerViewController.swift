@@ -10,6 +10,7 @@ import UIKit
 
 class ImagePickerViewController: UIViewController {
     
+    // MARK: - Properties
     let imagePicker = UIImagePickerController()
     let imageView = UIImageView()
     var buttonTag = 0
@@ -47,6 +48,8 @@ class ImagePickerViewController: UIViewController {
     var leftArrowImageView = UIImageView()
     var rightArrowImageView = UIImageView()
     
+    
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -65,6 +68,7 @@ class ImagePickerViewController: UIViewController {
         setupUI()
     }
     
+    // MARK: - UI
     func setupUI() {
         imageView.backgroundColor = .clear
         imageView.layer.cornerRadius = 20
@@ -90,6 +94,8 @@ class ImagePickerViewController: UIViewController {
         ])
     }
     
+    
+    // MARK: - Selectors
     @objc func buttonPressed(_ sender: UIButton) {
         imagePicker.sourceType = .photoLibrary // 기본값은 .photoLibrary 로 되어있다.
         imagePicker.mediaTypes = [kUTTypeImage, kUTTypeMovie] as [String]
@@ -106,6 +112,8 @@ class ImagePickerViewController: UIViewController {
     }
 }
 
+
+// MARK: - Extensions
 extension ImagePickerViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         picker.presentingViewController?.dismiss(animated: true, completion: nil)
