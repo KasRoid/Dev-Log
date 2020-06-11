@@ -23,8 +23,7 @@ I also have Notion pages for each of below classes. If you are interested, pleas
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
 |  Week 11  |  MapKit & Animation      | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09/Assignments) |
-|  Week 10  |  Vacation
-| [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09/Assignments) |
+|  Week 10  |  Vacation | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09/Assignments) |
 |  Week 09  |  MapKit & Animation      | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09/Assignments) |
 |  Week 08  |  TableView               | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_08) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_08/Assignments) |
 |  Week 07  |  Build Calculator        | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_07) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_07/Assignments) |
