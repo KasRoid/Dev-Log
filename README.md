@@ -4,13 +4,7 @@
 
 - **[My Blog: Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**
 
-<!-- TOC -->
-
-- [1. Here is my footage 🐾  as an iOS Developer](#1-here-is-my-footage-🐾--as-an-ios-developer)
-  - [1.1. Additional iOS Courses I'm taking](#11-additional-ios-courses-im-taking)
-  - [1.2. FastCampus iOS Developer School](#12-fastcampus-ios-developer-school)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [1. Here is my footage 🐾  as an iOS Developer](#1-here-is-my-footage-🐾--as-an-ios-developer)auto    - [1.1. Additional iOS Courses I'm taking](#11-additional-ios-courses-im-taking)auto    - [1.2. FastCampus iOS Developer School](#12-fastcampus-ios-developer-school)autoauto<!-- /TOC -->
 
 ---
 
