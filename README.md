@@ -1,14 +1,22 @@
-# Here is my footage 🐾  as an iOS Developer! #
+# 1. Here is my footage 🐾  as an iOS Developer #
 
-> Caution : I only upload Xcode files on Github. So please check out my [Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55) for further information. There are plenty of my notes and useful tips I learned
+> Caution : I only upload Xcode files on Github. So please check out my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)** for further information. There are plenty of my notes and useful tips I learned
 
 - **[My Blog: Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**
 
+<!-- TOC -->
+
+- [1. Here is my footage 🐾  as an iOS Developer](#1-here-is-my-footage-🐾--as-an-ios-developer)
+  - [1.1. Additional iOS Courses I'm taking](#11-additional-ios-courses-im-taking)
+  - [1.2. FastCampus iOS Developer School](#12-fastcampus-ios-developer-school)
+
+<!-- /TOC -->
+
 ---
 
-## Additional iOS Courses I'm taking ##
+## 1.1. Additional iOS Courses I'm taking ##
 
-> I also have Notion pages for each of below classes. If you are interested, please check it out too!
+> Below links indicate to my Github reopsitories. More infos about the projects are available in my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**. If you are interested, please check it out too!
 
 - [Stanford CS193p: Developing Apps for iOS - Spring 2020](https://github.com/KasRoid/CS193p)
 
@@ -22,12 +30,15 @@
 
 ---
 
-## 2020.04.03 - 2020.09.25 : FastCampus iOS Dev School ##
+## 1.2. FastCampus iOS Developer School ##
+
+Date: 2020.04.03 - 2020.09.25
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
-|  Week 11  |  MapKit & Animation      | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_11) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_11/Assignments) |
-|  Week 10  |  Vacation | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_10) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_10/Assignments) |
+|  Week 12  |  Dynamic Layout          | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_12) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_12/Assignments) |
+|  Week 11  |  UICollectionView        | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_11) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_11/Assignments) |
+|  Week 10  |  Vacation                | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_10) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_10/Assignments) |
 |  Week 09  |  MapKit & Animation      | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09/Assignments) |
 |  Week 08  |  TableView               | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_08) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_08/Assignments) |
 |  Week 07  |  Build Calculator        | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_07) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_07/Assignments) |
