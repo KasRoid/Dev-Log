@@ -1,14 +1,22 @@
-# 1. Here is my footage 🐾  as an iOS Developer #
+# Here is my footage 🐾  as an iOS Developer #
+
+## Table of Contents ##
+
+- [1. My Study Notes](#1-my-study-notes)
+- [2. Online iOS Courses](#2-additional-ios-courses-im-taking)
+- [3. FastCampus iOS Developer School](#3-fastcampus-ios-developer-school)
+
+---
+
+## 1. My Study Notes ##
 
 > Caution : I only upload Xcode files on Github. So please check out my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)** for further information. There are plenty of my notes and useful tips I learned
 
 - **[My Blog: Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**
 
-<!-- TOC -->autoauto- [1. Here is my footage 🐾  as an iOS Developer](#1-here-is-my-footage-🐾--as-an-ios-developer)auto    - [1.1. Additional iOS Courses I'm taking](#11-additional-ios-courses-im-taking)auto    - [1.2. FastCampus iOS Developer School](#12-fastcampus-ios-developer-school)autoauto<!-- /TOC -->
-
 ---
 
-## 1.1. Additional iOS Courses I'm taking ##
+## 2. Additional iOS Courses I'm taking ##
 
 > Below links indicate to my Github reopsitories. More infos about the projects are available in my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**. If you are interested, please check it out too!
 
@@ -24,7 +32,7 @@
 
 ---
 
-## 1.2. FastCampus iOS Developer School ##
+## 3. FastCampus iOS Developer School ##
 
 Date: 2020.04.03 - 2020.09.25
 
