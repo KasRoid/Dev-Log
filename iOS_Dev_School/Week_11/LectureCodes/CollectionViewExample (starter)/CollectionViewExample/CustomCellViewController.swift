@@ -21,7 +21,6 @@ final class CustomCellViewController: UIViewController {
     
     
     // MARK: LifeCycle
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
@@ -29,8 +28,8 @@ final class CustomCellViewController: UIViewController {
         setupNavigationItem()
     }
     
-    // MARK: Setup Views
     
+    // MARK: Setup Views
     private func setupCollectionView() {
         setupFlowLayout()
         
@@ -71,8 +70,8 @@ final class CustomCellViewController: UIViewController {
         navigationItem.rightBarButtonItems = [changeItem, changeDirection]
     }
     
-    // MARK: Action
     
+    // MARK: Action
     @objc private func changeCollectionViewItems(_ sender: Any) {
         showImage.toggle()
         setupFlowLayout()
@@ -83,11 +82,10 @@ final class CustomCellViewController: UIViewController {
         let direction = flowLayout.scrollDirection
         flowLayout.scrollDirection = direction == .horizontal ? .vertical : .horizontal
     }
-    
 }
 
-// MARK: - UICollectionViewDataSource
 
+// MARK: - UICollectionViewDataSource
 extension CustomCellViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return itemCount
@@ -102,7 +100,6 @@ extension CustomCellViewController: UICollectionViewDataSource {
             // configure Cell
             let item = indexPath.item % parkImages.count
             customCell.configure(image: UIImage(named: parkImages[item]), title: parkImages[item])
-            
             cell = customCell
         }
         else {
@@ -153,3 +150,4 @@ extension CustomCellViewController: UICollectionViewDelegateFlowLayout {
         
     }
 }
+

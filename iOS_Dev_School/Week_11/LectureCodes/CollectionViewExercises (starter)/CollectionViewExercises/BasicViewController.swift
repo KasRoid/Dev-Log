@@ -28,8 +28,6 @@ final class BasicViewController: UIViewController {
     }
     
     private func setupCollectionView() {
-        
-        
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: view.frame.width / 4 - 10, height: view.frame.width / 4 - 10)
         layout.minimumInteritemSpacing = 4
