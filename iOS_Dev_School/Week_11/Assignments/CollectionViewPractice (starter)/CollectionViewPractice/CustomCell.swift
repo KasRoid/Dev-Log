@@ -63,12 +63,10 @@ final class CustomCell: UICollectionViewCell {
     // MARK: - Actions
     func userHasSelected() {
         if cellIsSelected {
-            print("Deselected")
             mainImageView.alpha = 1
             checkmarkImage.isHidden.toggle()
         }
         else {
-            print("Selected")
             mainImageView.alpha = 0.4
             checkmarkImage.isHidden.toggle()
         }

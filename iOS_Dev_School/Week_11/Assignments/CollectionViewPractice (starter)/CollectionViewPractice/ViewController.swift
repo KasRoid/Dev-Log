@@ -49,7 +49,7 @@ final class ViewController: UIViewController {
     
     private func resetCellsAttributes() {
         selectedCellIndexPath.sorted().reversed().forEach {
-            guard let cell = collectionView.cellForItem(at: $0) as? CustomCell else { print("Guard Activated"); return }
+            guard let cell = collectionView.cellForItem(at: $0) as? CustomCell else { return }
             cell.cellIsSelected = false
             cell.mainImageView.alpha = 1
             cell.checkmarkImage.isHidden = true
