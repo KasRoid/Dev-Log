@@ -4,7 +4,9 @@
 
 - [1. My Study Notes](#1-my-study-notes)
 - [2. Online iOS Courses](#2-additional-ios-courses-im-taking)
-- [3. FastCampus iOS Developer School](#3-fastcampus-ios-developer-school)
+- [3. Hackathon](#3-Hackathon)
+- [4. Tiny Projects](#4-Tiny-Projects)
+- [5. FastCampus iOS Developer School](#5-fastcampus-ios-developer-school)
 
 ---
 
@@ -40,7 +42,13 @@
 
 ---
 
-## 3. FastCampus iOS Developer School ##
+## 4. Tiny Projects ##
+
+> Here I'm going to talk about my tiny projects
+
+---
+
+## 5. FastCampus iOS Developer School ##
 
 Date: 2020.04.03 - 2020.09.25
 
