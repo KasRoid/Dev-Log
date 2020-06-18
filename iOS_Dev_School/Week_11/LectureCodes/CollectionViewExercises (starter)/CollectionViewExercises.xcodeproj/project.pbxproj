@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		423AA394249BA79C00677A73 /* SectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423AA393249BA79C00677A73 /* SectionFooterView.swift */; };
 		529CBA2323DFB49700A333AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CBA2223DFB49700A333AB /* AppDelegate.swift */; };
 		529CBA2523DFB49700A333AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CBA2423DFB49700A333AB /* SceneDelegate.swift */; };
 		529CBA2A23DFB49700A333AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529CBA2823DFB49700A333AB /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		423AA393249BA79C00677A73 /* SectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionFooterView.swift; sourceTree = "<group>"; };
 		529CBA1F23DFB49700A333AB /* CollectionViewExercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewExercises.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529CBA2223DFB49700A333AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		529CBA2423DFB49700A333AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				529CBA3823DFB58600A333AB /* BasicViewController.swift */,
 				529CBA3A23DFB5B100A333AB /* SupplementaryViewController.swift */,
 				529CBA4923DFCE5F00A333AB /* SectionHeaderView.swift */,
+				423AA393249BA79C00677A73 /* SectionFooterView.swift */,
 				529CBA4223DFC2CD00A333AB /* Card */,
 				5270270C2496752A0091F681 /* Supporting Files */,
 			);
@@ -174,6 +177,7 @@
 				529CBA3B23DFB5B100A333AB /* SupplementaryViewController.swift in Sources */,
 				529CBA3723DFB51500A333AB /* ListViewController.swift in Sources */,
 				529CBA4823DFCC2E00A333AB /* Section.swift in Sources */,
+				423AA394249BA79C00677A73 /* SectionFooterView.swift in Sources */,
 				529CBA2523DFB49700A333AB /* SceneDelegate.swift in Sources */,
 				529CBA4623DFC50100A333AB /* Card.swift in Sources */,
 				529CBA4A23DFCE5F00A333AB /* SectionHeaderView.swift in Sources */,
