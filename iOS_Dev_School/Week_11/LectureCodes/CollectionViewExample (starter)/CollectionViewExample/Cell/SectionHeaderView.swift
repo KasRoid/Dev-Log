@@ -8,9 +8,10 @@
 import UIKit
 
 final class SectionHeaderView: UICollectionReusableView {
+    
     static let identifier = "SectionHeaderView"
     
-    private let blurView = UIVisualEffectView()
+    private let blurView = UIVisualEffectView() // 헤더에 블려효과를 주기위한 뷰
     private let imageView = UIImageView()
     private let titleLabel = UILabel()
     
@@ -29,7 +30,14 @@ final class SectionHeaderView: UICollectionReusableView {
     // MARK: Setup
     
     func setupViews() {
-        // 뷰 설정하기
+        let blurEffect = UIBlurEffect(style: .light)
+        blurView.effect = blurEffect
+        addSubview(blurView)
+        
+        blurView.contentView.addSubview(imageView)
+        titleLabel.textColor = .black
+        titleLabel.font = UIFont.preferredFont(forTextStyle: .title2)
+        blurView.contentView.addSubview(titleLabel)
     }
     
     func setupConstraints() {

@@ -13,17 +13,18 @@ import UIKit
 
 final class SupplementaryViewController: UIViewController {
     
+    // MARK: - Properties
     var dataSource: [Section] = sections
     
+    
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 }
 
 
 // MARK: - UICollectionViewDataSource
-
 extension SupplementaryViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 0
