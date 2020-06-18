@@ -32,6 +32,14 @@
 
 ---
 
+## 3. Hackathon ##
+
+> Hackathon projects I participated
+
+- **[CardGame with LoginPage](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09/Hackathon)** - June 5th, 2020
+
+---
+
 ## 3. FastCampus iOS Developer School ##
 
 Date: 2020.04.03 - 2020.09.25

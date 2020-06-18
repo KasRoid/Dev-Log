@@ -56,14 +56,14 @@ final class ReorderingViewController: UIViewController {
         collectionView.addGestureRecognizer(gesture)
     }
     
-    
+
     // MARK: - Action
     @objc private func reorderCollectionViewItem(_ sender: UILongPressGestureRecognizer) {
         let location = sender.location(in: collectionView)
         switch sender.state {
         case .began: // 아이템을 최초 눌렀을 때 한번 발동된다.
-            guard let indexPathe = collectionView.indexPathForItem(at: location) else { break }
-            collectionView.beginInteractiveMovementForItem(at: indexPathe)
+            guard let indexPath = collectionView.indexPathForItem(at: location) else { break }
+            collectionView.beginInteractiveMovementForItem(at: indexPath)
 //            애니메이션 작동을 해제하고 싶을 경우 어떤 뷰에서도 사용할 수 있다.
 //            UIView.setAnimationsEnabled(false)
         case .changed: // 아이템을 잡고 옮길 때 발동된다.
@@ -80,7 +80,6 @@ final class ReorderingViewController: UIViewController {
 
 
 // MARK: - UICollectionViewDataSource
-
 extension ReorderingViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return parkImages.count
@@ -108,5 +107,4 @@ extension ReorderingViewController: UICollectionViewDataSource {
         parkImages.insert(element, at: destination)
     }
 }
-
 
