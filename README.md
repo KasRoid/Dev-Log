@@ -38,7 +38,7 @@
 
 > Hackathon projects I participated
 
-- **[CardGame with LoginPage](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09/Hackathon)** <br> Teammates: [ByoungilYoun](https://github.com/ByoungilYoun) <br> June 5th, 2020
+- **[CardGame with LoginPage](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09/Hackathon)** <br> Teammates: _[ByoungilYoun](https://github.com/ByoungilYoun)_ <br> June 5th, 2020
 
 ---
 
