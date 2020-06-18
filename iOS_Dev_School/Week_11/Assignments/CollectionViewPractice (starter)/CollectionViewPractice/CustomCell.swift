@@ -23,10 +23,15 @@ final class CustomCell: UICollectionViewCell {
         let imageView = UIImageView()
         imageView.image = UIImage(systemName: "checkmark.circle.fill")
         imageView.tintColor = .darkText
+        imageView.isHidden = true
         return imageView
     }()
-    var cellIsSelected = false
-    
+    override var isSelected: Bool {
+        didSet {
+            mainImageView.alpha = isSelected ? 0.4 : 1
+            checkmarkImage.isHidden = isSelected ? false : true
+        }
+    }
     
     // MARK: - Lifecycle
     override init(frame: CGRect) {
@@ -56,19 +61,5 @@ final class CustomCell: UICollectionViewCell {
             checkmarkImage.heightAnchor.constraint(equalToConstant: 40),
             checkmarkImage.widthAnchor.constraint(equalToConstant: 40)
         ])
-        checkmarkImage.isHidden.toggle()
-    }
-    
-    
-    // MARK: - Actions
-    func userHasSelected() {
-        if cellIsSelected {
-            mainImageView.alpha = 1
-            checkmarkImage.isHidden.toggle()
-        }
-        else {
-            mainImageView.alpha = 0.4
-            checkmarkImage.isHidden.toggle()
-        }
     }
 }
