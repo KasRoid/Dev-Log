@@ -36,7 +36,7 @@
 
 ## 3. Hackathon ##
 
-> Hackathon projects I participated
+> I love hanging out with some random people!
 
 - **[Capture the Moment](https://github.com/KasRoid/CaptureTheMoment)** <br> Teamates: _[roobing](https://github.com/roobing)_ <br> June 26th, 2020
 
@@ -46,13 +46,13 @@
 
 ## 4. Tiny Projects ##
 
-> Here I'm going to talk about my tiny projects
+> Here I'm going to talk about my super tiny projects
 
 ---
 
 ## 5. FastCampus iOS Developer School ##
 
-Date: 2020.04.03 - 2020.09.25
+> Date: 2020.04.03 - 2020.09.25 <br> This is where I started my journey as an iOS Developer
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
