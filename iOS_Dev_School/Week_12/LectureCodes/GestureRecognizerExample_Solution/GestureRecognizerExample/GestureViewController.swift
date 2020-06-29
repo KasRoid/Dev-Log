@@ -32,7 +32,6 @@ final class GestureViewController: UIViewController {
     isQuadruple = !isQuadruple
   }
   
-  
   // MARK: Rotation
   
   @IBAction private func handleRotationGesture(_ sender: UIRotationGestureRecognizer) {
