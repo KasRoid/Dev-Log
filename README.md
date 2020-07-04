@@ -58,8 +58,9 @@
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
-|  Week 14  |  Codable                   | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_13) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_12/Assignments) |
-|  Week 13  |  Data Structure & GCD  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_13) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_12/Assignments) |
+|  Week 15  |  Codable                   | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15/Assignments) |
+|  Week 14  |  Codable                   | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_14) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_14/Assignments) |
+|  Week 13  |  Data Structure & GCD  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_13) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_13/Assignments) |
 |  Week 12  |  Dynamic Layout            | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_12) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_12/Assignments) |
 |  Week 11  |  UICollectionView          | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_11) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_11/Assignments) |
 |  Week 10  |  Vacation                  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_10) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_10/Assignments) |
