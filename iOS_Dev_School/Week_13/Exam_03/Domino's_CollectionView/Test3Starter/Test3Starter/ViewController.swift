@@ -12,8 +12,6 @@ class ViewController: UIViewController {
     
     
     // MARK: - Properties
-    static var tableViewIndexPath: IndexPath = []
-    
     private lazy var tableView: UITableView = {
         let tableView = UITableView(frame: view.frame)
         tableView.allowsSelection = false
@@ -44,13 +42,14 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dominoCategory.count
+        return dominoData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: TableViewCustomCell.identifier, for: indexPath) as? TableViewCustomCell else { return UITableViewCell() }
-        cell.titleImageView.image = UIImage(named: dominoCategory[indexPath.row])
-        cell.tableViewIndexPath = indexPath
+        cell.titleImageView.image = UIImage(named: dominoData[indexPath.row]["카테고리"] as! String)
+        cell.menuData = dominoData[indexPath.row]["메뉴"] as? [[String: Any]]
+        cell.loadCellData()
         return cell
     }
     
@@ -58,6 +57,6 @@ extension ViewController: UITableViewDataSource {
 
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        ViewController.tableViewIndexPath = indexPath
+        
     }
 }

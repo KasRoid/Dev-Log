@@ -1,4 +1,4 @@
-#### Week 12 : 2020.06.29 - 2020.07.03 ####
+#### Week 13 : 2020.06.29 - 2020.07.03 ####
 #### [Assignments for week 13](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_13/Assignments)
 |     |Contents               |Links |
 |-----|-----------------------|------|

@@ -12,7 +12,7 @@ class TableViewCustomCell: UITableViewCell {
     
     // MARK: - Properties
     static let identifier = "TableViewCustomCell"
-    var tableViewIndexPath: IndexPath?
+    var menuData: [[String: Any]]?
     
     let titleImageView: UIImageView = {
         let imageView = UIImageView()
@@ -64,6 +64,11 @@ class TableViewCustomCell: UITableViewCell {
         ])
     }
     
+    func loadCellData() {
+        
+        collectionView.reloadData()
+    }
+    
     private struct Standard {
         static let edgeInsets = UIEdgeInsets(top: 12, left: 12, bottom: 12, right: 12)
         static let spacing: CGFloat = 12
@@ -73,14 +78,13 @@ class TableViewCustomCell: UITableViewCell {
 extension TableViewCustomCell: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        guard let menus = dominoData[tableViewIndexPath!.row]["메뉴"] as? [[String: Any]] else { return 0 }
-        return menus.count
+        guard let menu = menuData else { fatalError() }
+        return menu.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionViewCustomCell.identifier, for: indexPath) as? CollectionViewCustomCell else { return CollectionViewCustomCell()}
-        guard let menus = dominoData[ViewController.tableViewIndexPath.row]["메뉴"] as? [[String: Any]] else { return CollectionViewCustomCell() }
-        guard let title = menus[indexPath.item]["품명"] as? String, let price = menus[indexPath.item]["가격"] as? Int else { return CollectionViewCustomCell() }
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionViewCustomCell.identifier, for: indexPath) as? CollectionViewCustomCell else { fatalError() }
+        guard let menu = menuData, let title = menu[indexPath.item]["품명"] as? String, let price = menu[indexPath.item]["가격"] as? Int else { fatalError() }
         cell.menuImageView.image = UIImage(named: title)
         cell.nameLabel.text = title
         cell.priceLabel.text = String(price) + "원"
