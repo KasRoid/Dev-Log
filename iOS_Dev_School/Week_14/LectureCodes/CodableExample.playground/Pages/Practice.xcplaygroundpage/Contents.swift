@@ -27,9 +27,17 @@ let jsonFruits = """
 """.data(using: .utf8)!
 
 
-struct Fruit {
+struct Fruit: Codable {
+    var name: String
+    var cost: Int
+    var description: String?
 }
 
+func decodeJsonFruits() {
+    guard let decodedData = try? JSONDecoder().decode([Fruit].self, from: jsonFruits) else { return }
+    decodedData.forEach() { print($0) }
+}
+decodeJsonFruits()
 
 
 /*
@@ -46,9 +54,25 @@ let jsonReport = """
 }
 """.data(using: .utf8)!
 
-struct Report {
+struct Report: Decodable {
+    var name: String
+    var reportId: String
+    var readCount: String
+    var reportDate: String
+    
+    private enum CodingKeys: String, CodingKey {
+        case name
+        case reportId = "report_id"
+        case readCount = "read_count"
+        case reportDate = "report_date"
+    }
 }
 
+func decodeJsonReport() {
+    guard let decodedData = try? JSONDecoder().decode(Report.self, from: jsonReport) else { return }
+    print(decodedData)
+}
+decodeJsonReport()
 
 /*
  3번 문제
@@ -69,14 +93,51 @@ let jsonMovie = """
 ]
 """.data(using: .utf8)!
 
-struct Person {
-  struct Movie {
+struct Person: Decodable {
     
-  }
+    var name: String
+    var favoriteMovies: [Movie]
+    
+    private enum CodingKeys: String, CodingKey {
+        case name
+        case favoriteMovies = "favorite_movies"
+    }
+
+    init(from decoder: Decoder) throws {
+        let keyedContainer = try decoder.container(keyedBy: CodingKeys.self)
+        name = try keyedContainer.decode(String.self, forKey: .name)
+        favoriteMovies = try keyedContainer.decode([Movie].self, forKey: .favoriteMovies)
+    }
+    
+    struct Movie: Decodable {
+        var title: String
+        var releaseYear: Int
+    
+        private enum CodingKeys: String, CodingKey {
+            case title
+            case releaseYear = "release_year"
+        }
+        
+        init(from decoder: Decoder) throws {
+            let container = try decoder.container(keyedBy: CodingKeys.self)
+            title = try container.decode(String.self, forKey: .title)
+            releaseYear = try container.decode(Int.self, forKey: .releaseYear)
+        }
+    }
 }
 
 
+func decodeJsonMovie() {
+    do {
+        let decodedData = try JSONDecoder().decode([Person].self, from: jsonMovie)
+        decodedData.forEach() { print($0.favoriteMovies) }
+    } catch let error {
+        print(error.localizedDescription)
+    }
+    
+}
 
+decodeJsonMovie()
 
 
 

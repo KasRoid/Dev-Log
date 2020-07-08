@@ -27,8 +27,27 @@ let jsonData = """
   """.data(using: .utf8)!
 
 // JSONSerialization
+func fetchWithJsonSerialization() {
+    guard let jsonObjects = try? JSONSerialization.jsonObject(with: jsonData) as? [String: Any] else { return }
+    if let name = jsonObjects["name"] as? String,
+        let age = jsonObjects["age"] as? Int {
+        let dog = Dog(name: name, age: age)
+        print(dog)
+    }
+}
+
+fetchWithJsonSerialization()
+
 
 // JSONDecoder
+func fetchWithJsonDecoder() {
+    let jsonDecoder = JSONDecoder()
+    guard let decodedData = try? jsonDecoder.decode(Dog.self, from: jsonData) else { return }
+    print(decodedData)
+}
+
+fetchWithJsonDecoder()
+
 
 
 /*
@@ -44,8 +63,26 @@ let jsonArrData = """
 
 
 // JSONSerialization
+func fetchWithJsonSerialization2() {
+    guard let jsonObjects = try? JSONSerialization.jsonObject(with: jsonArrData) as? [[String: Any]] else { return }
+    for object in jsonObjects {
+        let name = object["name"]! as! String
+        let age = object["age"]! as! Int
+        let dog = Dog(name: name, age: age)
+        print(dog)
+    }
+}
+
+fetchWithJsonSerialization2()
+
 
 // JSONDecoder
+func fetchWithJsonDecoder2() {
+    guard let decodedData = try? JSONDecoder().decode([Dog].self, from: jsonArrData) else { return }
+    decodedData.forEach() { print($0) }
+}
+
+fetchWithJsonDecoder2()
 
 
 /*
@@ -62,10 +99,26 @@ let jsonDictData = """
 """.data(using: .utf8)!
 
 // JSONSerialization
+func fetchWithJsonSerialization3() {
+    guard let jsonObjects = try? JSONSerialization.jsonObject(with: jsonDictData) as? [String: Any] else { return }
+    guard let data = jsonObjects["data"] as? [[String: Any]] else { return }
+    for object in data {
+        let name = object["name"]! as! String
+        let age = object["age"]! as! Int
+        let dog = Dog(name: name, age: age)
+        print(dog)
+    }
+}
+fetchWithJsonSerialization3()
+
 
 // JSONDecoder
-
-
+func fetchWithJsonDecoder3() {
+    guard let decodedData = try? JSONDecoder().decode([String: [Dog]].self, from: jsonDictData) else { return }
+    guard let dogs = decodedData["data"] else { return }
+    dogs.forEach() { print($0) }
+}
+fetchWithJsonDecoder3()
 
 
 

@@ -11,15 +11,15 @@ let jsonData = """
 
 
 struct User: Decodable {
-  let name: String
-  let email: String
-  let gender: String
-  
-  private enum CodingKeys: String, CodingKey {
-    case name = "user_name"
-    case email = "user_email"
-    case gender
-  }
+    let name: String
+    let email: String
+    let gender: String
+    
+    private enum CodingKeys: String, CodingKey {
+        case name = "user_name"
+        case email = "user_email"
+        case gender
+    }
 }
 
 
