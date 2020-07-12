@@ -16,7 +16,8 @@ class DetailViewController: UIViewController {
         let collectionView = UICollectionView(frame: view.frame, collectionViewLayout: flowLayout)
         collectionView.register(DetailCollectionViewCell.self, forCellWithReuseIdentifier: DetailCollectionViewCell.identifier)
         collectionView.dataSource = self
-        collectionView.backgroundColor = .gray
+        collectionView.delegate = self
+        collectionView.backgroundColor = .systemBackground
         return collectionView
     }()
     
@@ -57,7 +58,9 @@ extension DetailViewController: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CollectionViewCellLayout.itemSize
+        let leftSpacing = CollectionViewCellLayout.edgeInsets.left
+        let rightSpacing = CollectionViewCellLayout.edgeInsets.right
+        return CGSize(width: view.frame.width - leftSpacing - rightSpacing, height: view.frame.height * 2 / 3)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {

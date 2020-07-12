@@ -13,6 +13,10 @@ class DetailCollectionViewCell: UICollectionViewCell {
     
     // MARK: - Properties
     static let identifier = "DetailCollectionViewCell"
+    let pageView: UIPageControl = {
+        let pageControl = UIPageControl()
+        return pageControl
+    }()
     
     
     // MARK: - Lifecycle

@@ -11,13 +11,26 @@ import MapKit
 import CoreLocation
 
 class MapViewController: UIViewController {
+
     
+    // MARK: - Properties
     private let mapView = MKMapView()
-    private let detailImageView = DetailImageView()
+    private let detailView = DetailImageView()
+    
+    private lazy var collectionView: UICollectionView = {
+        let flowLayout = UICollectionViewFlowLayout()
+        flowLayout.scrollDirection = .horizontal
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: flowLayout)
+        collectionView.register(MapCollectionViewCell.self, forCellWithReuseIdentifier: MapCollectionViewCell.identifier)
+        collectionView.dataSource = self
+        collectionView.delegate = self
+        collectionView.backgroundColor = .systemBackground
+        return collectionView
+    }()
     
     private lazy var toggleButton: UIButton = {
         let button = UIButton()
-        button.backgroundColor = .darkGray
+        button.backgroundColor = .lightGray
         button.setTitle("Toggle", for: .normal)
         button.addTarget(self, action: #selector(handleToggleButton(_:)), for: .touchUpInside)
         return button
@@ -36,14 +49,17 @@ class MapViewController: UIViewController {
     private func configureUI() {
         mapView.delegate = self
         mapView.frame = view.frame
-        [mapView, detailImageView].forEach {
+        [mapView, detailView].forEach {
             view.addSubview($0)
         }
-        detailImageView.clipsToBounds = true
-        detailImageView.addSubview(toggleButton)
+        detailView.clipsToBounds = true
+        [toggleButton, collectionView].forEach {
+            detailView.addSubview($0)
+        }
+        
         
         // Layout
-        detailImageView.snp.makeConstraints({
+        detailView.snp.makeConstraints({
             $0.top.equalTo((view.frame.height) / 1.7)
             $0.leading.trailing.equalToSuperview()
             $0.height.equalToSuperview().dividedBy(3)
@@ -53,6 +69,12 @@ class MapViewController: UIViewController {
             $0.top.leading.trailing.equalToSuperview()
             $0.bottom.equalToSuperview().dividedBy(9)
         })
+        
+        collectionView.snp.makeConstraints({
+            $0.top.equalTo(toggleButton.snp.bottom)
+            $0.leading.trailing.equalToSuperview()
+            $0.bottom.equalToSuperview().offset(-10)
+        })
     }
     
     
@@ -61,12 +83,12 @@ class MapViewController: UIViewController {
         UIView.animate(withDuration: 0.5, animations: {
             switch self.isOn {
             case true:
-                self.detailImageView.snp.updateConstraints({
+                self.detailView.snp.updateConstraints({
                     $0.top.equalTo((self.view.frame.height) / 1.15)
                 })
                 self.isOn = false
             case false:
-                self.detailImageView.snp.updateConstraints({
+                self.detailView.snp.updateConstraints({
                     $0.top.equalTo((self.view.frame.height) / 1.7)
                 })
                 self.isOn = true
@@ -78,6 +100,44 @@ class MapViewController: UIViewController {
 }
 
 
+// MARK: - MKMapViewDelegate
 extension MapViewController: MKMapViewDelegate {
+    
+}
+
+
+// MARK: - UICollectionViewDataSource
+extension MapViewController: UICollectionViewDataSource {
+
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 100
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MapCollectionViewCell.identifier, for: indexPath) as? MapCollectionViewCell else { fatalError() }
+        cell.backgroundColor = .red
+        return cell
+    }
+    
+}
+
+
+extension MapViewController: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return CollectionViewCellLayout.edgeInsets
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: 200, height: 200)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return CollectionViewCellLayout.spacing
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return CollectionViewCellLayout.spacing * 4
+    }
     
 }
