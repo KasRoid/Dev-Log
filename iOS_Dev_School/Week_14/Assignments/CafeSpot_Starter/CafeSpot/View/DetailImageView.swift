@@ -32,6 +32,7 @@ class DetailImageView: UIView {
     // MARK: - UI
     private func configureUI() {
         self.backgroundColor = .gray
+        self.layer.cornerRadius = 20
     }
     
 }
