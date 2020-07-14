@@ -43,7 +43,6 @@ class DetailViewController: UIViewController {
         collectionView.frame = view.frame
         collectionView.backgroundColor = .lightGray
     }
-    
 }
 
 
@@ -64,12 +63,16 @@ extension DetailViewController: UICollectionViewDataSource {
             return cell
         case 1:
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: DetailCollectionViewMapCell.identifier, for: indexPath) as? DetailCollectionViewMapCell else { fatalError() }
+            cell.cafeName = imageTitle
             cell.latitude = location!.lat
             cell.longitude = location!.lng
             cell.backgroundColor = .systemBackground
             return cell
         case 2:
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: DetailCollectionViewSocialCell.identifier, for: indexPath) as? DetailCollectionViewSocialCell else { fatalError() }
+            cell.cafeName = imageTitle
+            cell.latitude = location!.lat
+            cell.longitude = location!.lng
             cell.backgroundColor = .systemBackground
             return cell
         default:
@@ -100,7 +103,7 @@ extension DetailViewController: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return collectionViewCellLayout.spacing
+        return collectionViewCellLayout.spacing / 4
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {

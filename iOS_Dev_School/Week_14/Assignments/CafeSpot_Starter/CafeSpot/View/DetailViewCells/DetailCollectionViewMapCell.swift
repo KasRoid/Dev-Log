@@ -8,12 +8,10 @@
 
 import UIKit
 import MapKit
-import CoreLocation
 
 class DetailCollectionViewMapCell: UICollectionViewCell {
     
     static let identifier = "DetailCollectionViewMapCell"
-    let locationManager = CLLocationManager()
     
     let title: UILabel = {
         let label = UILabel()
@@ -23,7 +21,9 @@ class DetailCollectionViewMapCell: UICollectionViewCell {
         return label
     }()
     
-    let mapView = MKMapView()
+    var cafeName: String = ""
+    
+    private let mapView = MKMapView()
     var latitude: Float = 0
     var longitude: Float = 0
     
@@ -31,7 +31,6 @@ class DetailCollectionViewMapCell: UICollectionViewCell {
     // MARK: - Lifecycle
     override init(frame: CGRect) {
         super.init(frame: frame)
-        setupLocationManager()
     }
     
     required init?(coder: NSCoder) {
@@ -41,6 +40,8 @@ class DetailCollectionViewMapCell: UICollectionViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         configureUI()
+        setRegion()
+        setAnnotaion()
     }
     
     
@@ -69,14 +70,18 @@ class DetailCollectionViewMapCell: UICollectionViewCell {
     }
     
     // MARK: - Private Methods
-    private func setupLocationManager() {
-        locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        
+    private func setRegion() {
+        let center = CLLocationCoordinate2D(latitude: CLLocationDegrees(latitude), longitude: CLLocationDegrees(longitude))
+        let span = MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
+        let region = MKCoordinateRegion(center: center, span: span)
+        mapView.setRegion(region, animated: true)
     }
     
-}
-
-extension DetailCollectionViewMapCell: CLLocationManagerDelegate {
+    private func setAnnotaion() {
+        let annotation = MKPointAnnotation()
+        annotation.title = cafeName
+        annotation.coordinate = CLLocationCoordinate2D(latitude: CLLocationDegrees(latitude), longitude: CLLocationDegrees(longitude))
+        mapView.addAnnotation(annotation)
+    }
     
 }

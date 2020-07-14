@@ -38,7 +38,11 @@ class SNSButton: UIButton {
     
     private func setAttributes() {
         layer.borderWidth = 1.0
-        backgroundColor = .systemBackground
+        layer.borderColor = UIColor.systemGray6.cgColor
+        layer.cornerRadius = 10
+        backgroundColor = .systemGray
+        
+        title.adjustsFontSizeToFitWidth = true
     }
     
     private func setConstraints() {

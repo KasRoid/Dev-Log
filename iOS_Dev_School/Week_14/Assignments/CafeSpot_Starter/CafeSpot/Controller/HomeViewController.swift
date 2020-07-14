@@ -103,6 +103,7 @@ extension HomeViewController: UICollectionViewDataSource {
         cell.detailLabel.text = description
         cell.backgroundColor = .systemBackground
         return cell
+        
     }
     
 }

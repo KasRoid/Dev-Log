@@ -78,15 +78,17 @@ class DetailCollectionViewCell: UICollectionViewCell {
     }
     
     private func configureScrollView() {
-        scrollView.contentSize = CGSize(width: self.frame.width * CGFloat(images.count), height: self.frame.height)
+        print(#function, self)
+        print("ContentView:", contentView)
+        scrollView.contentSize = CGSize(width: contentView.frame.width * CGFloat(images.count), height: 400)
         
         for index in images.indices {
-            scrollFrame.origin.x = scrollView.frame.width * CGFloat(index)
-            scrollFrame.size = scrollView.frame.size
+            scrollFrame.origin.x = contentView.frame.width * CGFloat(index)
+            scrollFrame.size = contentView.frame.size
             
-            let imageView = UIImageView(frame: scrollFrame)
+            let imageView = UIImageView(frame: CGRect(x: scrollFrame.origin.x, y: 0, width: contentView.frame.width, height: 400))
             imageView.image = images[index]
-            imageView.contentMode = .scaleAspectFill
+            imageView.contentMode = .scaleToFill
             scrollView.addSubview(imageView)
         }
     }

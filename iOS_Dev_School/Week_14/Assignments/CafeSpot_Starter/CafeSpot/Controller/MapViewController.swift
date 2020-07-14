@@ -8,10 +8,9 @@
 
 import UIKit
 import MapKit
-import CoreLocation
 
 class MapViewController: UIViewController {
-
+    
     
     // MARK: - Properties
     private let mapView = MKMapView()
@@ -35,20 +34,29 @@ class MapViewController: UIViewController {
         button.addTarget(self, action: #selector(handleToggleButton(_:)), for: .touchUpInside)
         return button
     }()
+    
     private var isOn = true
+    private var annotations = [MKPointAnnotation]()
     
     
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
+        setAnnotation()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        setRegion()
     }
     
     
     // MARK: - UI
     private func configureUI() {
-        mapView.delegate = self
         mapView.frame = view.frame
+        mapView.delegate = self
+        mapView.register(CafeAnnotationView.self, forAnnotationViewWithReuseIdentifier: CafeAnnotationView.preferredClusteringIdentifier)
         [mapView, detailView].forEach {
             view.addSubview($0)
         }
@@ -56,9 +64,10 @@ class MapViewController: UIViewController {
         [toggleButton, collectionView].forEach {
             detailView.addSubview($0)
         }
-        
-        
-        // Layout
+        setConstraints()
+    }
+    
+    private func setConstraints() {
         detailView.snp.makeConstraints({
             $0.top.equalTo((view.frame.height) / 1.7)
             $0.leading.trailing.equalToSuperview()
@@ -75,6 +84,38 @@ class MapViewController: UIViewController {
             $0.leading.trailing.equalToSuperview()
             $0.bottom.equalToSuperview().offset(-10)
         })
+    }
+    
+    
+    // MARK: - Private Methods
+    private func setAnnotation() {
+        for cafe in cafeBrain.cafeList {
+            let annotation = MKPointAnnotation()
+            let location = cafe.location
+            let latitude = location.lat
+            let longitude = location.lng
+            
+            annotation.title = cafe.title
+            annotation.coordinate = CLLocationCoordinate2D(latitude: CLLocationDegrees(latitude), longitude: CLLocationDegrees(longitude))
+            annotations.append(annotation)
+            mapView.addAnnotation(annotation)
+        }
+    }
+    
+    private func setRegion() {
+        let latitude = cafeBrain.cafeList[0].location.lat
+        let longitude = cafeBrain.cafeList[0].location.lng
+        let center = CLLocationCoordinate2D(latitude: CLLocationDegrees(latitude), longitude: CLLocationDegrees(longitude))
+        let span = MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)
+        let region = MKCoordinateRegion(center: center, span: span)
+        mapView.setRegion(region, animated: true)
+    }
+    
+    private func moveToAnnotation(annotation: MKPointAnnotation) {
+        let center: CLLocationCoordinate2D = annotation.coordinate
+        let span = MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)
+        let region = MKCoordinateRegion(center: center, span: span)
+        mapView.setRegion(region, animated: true)
     }
     
     
@@ -108,20 +149,35 @@ extension MapViewController: MKMapViewDelegate {
 
 // MARK: - UICollectionViewDataSource
 extension MapViewController: UICollectionViewDataSource {
-
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 100
+        return cafeBrain.cafeList.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MapCollectionViewCell.identifier, for: indexPath) as? MapCollectionViewCell else { fatalError() }
-        cell.backgroundColor = .red
+        let title = cafeBrain.cafeList[indexPath.item].title
+        let description = cafeBrain.cafeList[indexPath.item].description
+        cell.imageView.image = UIImage(named: title)
+        cell.title.text = title
+        cell.subtitle.text = description
         return cell
     }
     
 }
 
 
+// MARK: - UICollectionViewDelegate
+extension MapViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let annotation = annotations[indexPath.item]
+        moveToAnnotation(annotation: annotation)
+        mapView.selectAnnotation(annotation, animated: true)
+    }
+}
+
+
+// MARK: - UICollectionViewDelegateFlowLayout
 extension MapViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
@@ -141,3 +197,4 @@ extension MapViewController: UICollectionViewDelegateFlowLayout {
     }
     
 }
+

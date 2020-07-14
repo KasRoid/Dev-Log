@@ -14,17 +14,14 @@ class MapCollectionViewCell: UICollectionViewCell {
     static let identifier = "MapCollectionViewCell"
     let imageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.backgroundColor = .green
         return imageView
     }()
     let title: UILabel = {
         let label = UILabel()
-        label.text = "Title"
         return label
     }()
     let subtitle: UILabel = {
         let label = UILabel()
-        label.text = "subtitle"
         return label
     }()
     

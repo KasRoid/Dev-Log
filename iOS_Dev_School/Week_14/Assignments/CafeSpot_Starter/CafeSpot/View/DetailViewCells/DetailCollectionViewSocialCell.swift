@@ -11,6 +11,9 @@ import UIKit
 class DetailCollectionViewSocialCell: UICollectionViewCell {
     
     static let identifier = "DetailCollectionViewSocialCell"
+    var cafeName: String = ""
+    var latitude: Float = 0
+    var longitude: Float = 0
     
     let title: UILabel = {
         let label = UILabel()
@@ -92,23 +95,27 @@ class DetailCollectionViewSocialCell: UICollectionViewCell {
     
     // MARK: - Private Methods
     private func handleInstagram() {
-        let instagram = URL(string: "instagram://app")!
-
+        let urlString = "instagram://tag?name=\(cafeName)"
+        let encodeUrlString = urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
+        let instagram = URL(string: encodeUrlString)!
+        
         if UIApplication.shared.canOpenURL(instagram) {
-                UIApplication.shared.open(instagram, options: [:], completionHandler: nil)
-            } else {
-                print("Instagram not installed")
+            UIApplication.shared.open(instagram, options: [:], completionHandler: nil)
+        } else {
+            print("Instagram not installed")
         }
     }
     
     private func handleNaverMap() {
-        let url = URL(string: "nmap://actionPath?parameter=value&appname=CafeSpot")!
+        let urlString = "nmap://route/walk?dlat=\(latitude)&dlng=\(longitude)&dname=\(cafeName)&appname=CafeSpot"
+        let encodedUrlString = urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
+        let navermap = URL(string: encodedUrlString)!
         let appStoreURL = URL(string: "http://itunes.apple.com/app/id311867728?mt=8")!
-
-        if UIApplication.shared.canOpenURL(url) {
-          UIApplication.shared.open(url)
+        
+        if UIApplication.shared.canOpenURL(navermap) {
+            UIApplication.shared.open(navermap)
         } else {
-          UIApplication.shared.open(appStoreURL)
+            UIApplication.shared.open(appStoreURL)
         }
     }
     
