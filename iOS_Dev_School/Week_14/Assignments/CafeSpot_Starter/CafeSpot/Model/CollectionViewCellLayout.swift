@@ -8,10 +8,16 @@
 
 import UIKit
 
+var collectionViewCellLayout = CollectionViewCellLayout()
+
 struct CollectionViewCellLayout {
+    private let scene = UIApplication.shared.connectedScenes.first!.delegate as! SceneDelegate
+    private lazy var width = scene.window!.frame.width
+    private lazy var height = scene.window!.frame.height
+    private let edges = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+    private let space: CGFloat = 10
     
-    static let edgeInsets: UIEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
-    static let itemSize: CGSize = CGSize(width: 180, height: 220)
-    static let spacing: CGFloat = 10
-    
+    lazy var edgeInsets: UIEdgeInsets = UIEdgeInsets(top: edges.top, left: edges.left, bottom: edges.bottom, right: edges.right)
+    lazy var itemSize: CGSize = CGSize(width: (width / 2) - edges.left - edges.right, height: height / 3)
+    lazy var spacing: CGFloat = space
 }

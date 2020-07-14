@@ -16,32 +16,35 @@ class HomeCollectionViewCell: UICollectionViewCell {
     
     let imageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.layer.cornerRadius = 40
+        imageView.layer.cornerRadius = 20
         imageView.clipsToBounds = true
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleAspectFill
         return imageView
     }()
     
     let titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "Text"
         return label
     }()
 
     let detailLabel: UILabel = {
         let label = UILabel()
-        label.text = "Text"
+        label.textColor = .gray
         return label
     }()
 
     // MARK: - Lifecycle
     override init(frame: CGRect) {
         super.init(frame: frame)
-        configureUI()
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        configureUI()
     }
     
     
@@ -52,21 +55,23 @@ class HomeCollectionViewCell: UICollectionViewCell {
         }
         
         imageView.snp.makeConstraints({
-            $0.top.equalToSuperview()
+            $0.top.leading.trailing.equalToSuperview()
             $0.height.equalToSuperview().multipliedBy(0.7)
             $0.centerX.equalToSuperview()
         })
         
         titleLabel.snp.makeConstraints({
             $0.top.equalTo(imageView.snp.bottom)
+            $0.leading.trailing.equalToSuperview()
             $0.height.equalToSuperview().multipliedBy(0.15)
             $0.centerX.equalToSuperview()
         })
         
         detailLabel.snp.makeConstraints({
             $0.top.equalTo(titleLabel.snp.bottom)
-            $0.height.equalToSuperview().multipliedBy(0.15)
+            $0.leading.trailing.equalToSuperview()
             $0.bottom.equalToSuperview()
+            $0.height.equalToSuperview().multipliedBy(0.15)
             $0.centerX.equalToSuperview()
         })
     }

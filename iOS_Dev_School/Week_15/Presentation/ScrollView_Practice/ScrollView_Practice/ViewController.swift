@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     lazy var scrollView = UIScrollView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height))
     var scrollFrame = CGRect(x: 0, y: 0, width: 0, height: 0)
-    let colors:[UIColor] = [UIColor.red, UIColor.blue, UIColor.green, UIColor.yellow]
+    let colors: [UIColor] = [UIColor.red, UIColor.blue, UIColor.green, UIColor.yellow]
     lazy var pageControl = UIPageControl(frame: CGRect(x: view.frame.midX - 100, y: view.frame.maxY - 200, width: 200, height: 50))
     
 

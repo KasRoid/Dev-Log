@@ -125,7 +125,7 @@ extension MapViewController: UICollectionViewDataSource {
 extension MapViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return CollectionViewCellLayout.edgeInsets
+        return collectionViewCellLayout.edgeInsets
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -133,11 +133,11 @@ extension MapViewController: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return CollectionViewCellLayout.spacing
+        return collectionViewCellLayout.spacing
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return CollectionViewCellLayout.spacing * 4
+        return collectionViewCellLayout.spacing * 4
     }
     
 }
