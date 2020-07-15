@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		421EE98E24B82B84009C735A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421EE98D24B82B84009C735A /* MapViewController.swift */; };
 		426A926924BC1BFE00052E8C /* SNSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426A926824BC1BFE00052E8C /* SNSButton.swift */; };
-		426A926C24BDE1F200052E8C /* CafeAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426A926B24BDE1F200052E8C /* CafeAnnotationView.swift */; };
 		42A3617224B857C900B5F5B6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 42A3617124B857C900B5F5B6 /* SnapKit */; };
 		42A3617424B89FED00B5F5B6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A3617324B89FED00B5F5B6 /* DetailViewController.swift */; };
 		42A3617624B8A18300B5F5B6 /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A3617524B8A18300B5F5B6 /* DetailCollectionViewCell.swift */; };
@@ -34,7 +33,6 @@
 		421EE98C24B8241C009C735A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		421EE98D24B82B84009C735A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		426A926824BC1BFE00052E8C /* SNSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSButton.swift; sourceTree = "<group>"; };
-		426A926B24BDE1F200052E8C /* CafeAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeAnnotationView.swift; sourceTree = "<group>"; };
 		42A3617324B89FED00B5F5B6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		42A3617524B8A18300B5F5B6 /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		42A3617724B8A64F00B5F5B6 /* DetailImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImageView.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				426A926824BC1BFE00052E8C /* SNSButton.swift */,
 				42A3617724B8A64F00B5F5B6 /* DetailImageView.swift */,
 				42C6026D24B8379900CACC19 /* HomeCollectionViewCell.swift */,
-				426A926B24BDE1F200052E8C /* CafeAnnotationView.swift */,
 				42A3617924BB327100B5F5B6 /* MapCollectionViewCell.swift */,
 				426A926A24BC9ECD00052E8C /* DetailViewCells */,
 			);
@@ -255,7 +252,6 @@
 				42A3617A24BB327100B5F5B6 /* MapCollectionViewCell.swift in Sources */,
 				42A3617624B8A18300B5F5B6 /* DetailCollectionViewCell.swift in Sources */,
 				42C6026E24B8379900CACC19 /* HomeCollectionViewCell.swift in Sources */,
-				426A926C24BDE1F200052E8C /* CafeAnnotationView.swift in Sources */,
 				42A3617824B8A64F00B5F5B6 /* DetailImageView.swift in Sources */,
 				529469AF24AD13960067C66C /* HomeViewController.swift in Sources */,
 				529469AB24AD13960067C66C /* AppDelegate.swift in Sources */,

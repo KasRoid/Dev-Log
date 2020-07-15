@@ -56,7 +56,6 @@ class MapViewController: UIViewController {
     private func configureUI() {
         mapView.frame = view.frame
         mapView.delegate = self
-        mapView.register(CafeAnnotationView.self, forAnnotationViewWithReuseIdentifier: CafeAnnotationView.preferredClusteringIdentifier)
         [mapView, detailView].forEach {
             view.addSubview($0)
         }
@@ -64,6 +63,8 @@ class MapViewController: UIViewController {
         [toggleButton, collectionView].forEach {
             detailView.addSubview($0)
         }
+        
+        // Setup Methods
         setConstraints()
     }
     
@@ -143,7 +144,13 @@ class MapViewController: UIViewController {
 
 // MARK: - MKMapViewDelegate
 extension MapViewController: MKMapViewDelegate {
-    
+    // Clustering Annotation, 맵 로딩시 한번에 annotation 의 갯수만큼 호출되는 것 같다
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "Cafe")
+        annotationView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: "Cafe")
+        annotationView?.clusteringIdentifier = "cluster"
+        return annotationView
+    }
 }
 
 
