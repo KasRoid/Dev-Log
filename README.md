@@ -22,17 +22,21 @@
 
 > Below links indicate to my Github reopsitories. More infos about the projects are available in my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**. If you are interested, please check it out too!
 
-- [RayWenderLich: Beginning iOS Debugging](https://www.raywenderlich.com/4681-beginning-ios-debugging) <br> 2020.07.14 - TBD
+- ### RayWenderLich ###
 
-- [Stanford CS193p: Developing Apps for iOS - Spring 2020](https://github.com/KasRoid/CS193p) <br> 2020.05.22 - TBD
+    1. [Beginning iOS Debugging](https://www.raywenderlich.com/4681-beginning-ios-debugging) <br> 2020.07.14 - TBD
+    2. [ScrollView School](https://www.raywenderlich.com/9223-scroll-view-school) <br> 2020.07.15 - TBD
 
-- [FireChat_Clone_Udemy](https://github.com/KasRoid/FireChat) <br> 2020.06.03 - TBD
+- ### Udemy ###
 
-- [The_Complete_iOS_App_Development_Bootcamp](https://github.com/KasRoid/The_Complete_iOS_App_Development_Bootcamp) <br> 2020.05.04 - TBD
+    1. [FireChat_Clone](https://github.com/KasRoid/FireChat) <br> 2020.06.03 - TBD
+    1. [Instagram_Clone](https://github.com/KasRoid/Instagram_Clone_Udemy) <br> 2020.04.30 - TBD
 
-- [Instagram_Clone_Udemy](https://github.com/KasRoid/Instagram_Clone_Udemy) <br> 2020.04.30 - TBD
+- ### Others ###
 
-- [Storyboard Design Practice](https://github.com/KasRoid/Intro_to_iOS_Development) <br> 2020.04.17 - 2020.04.27
+    1. [Stanford CS193p: Developing Apps for iOS - Spring 2020](https://github.com/KasRoid/CS193p) <br> 2020.05.22 - TBD
+    2. [The_Complete_iOS_App_Development_Bootcamp](https://github.com/KasRoid/The_Complete_iOS_App_Development_Bootcamp) <br> 2020.05.04 - TBD
+    3. [Storyboard Design Practice](https://github.com/KasRoid/Intro_to_iOS_Development) <br> 2020.04.17 - 2020.04.27
 
 ---
 
