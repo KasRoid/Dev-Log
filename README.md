@@ -44,7 +44,7 @@
 
 > I love hanging out with some random people!
 
-- **[TBD](https://github.com/KasRoid/CaptureTheMoment)** <br> Teamates: _[1000JI](https://github.com/1000JI)_<br> AngelHack Seoul 2020 Online <br> July 19th, 2020
+- **[VegeX](https://github.com/KasRoid/VegeX)** <br> Teamates: _[1000JI](https://github.com/1000JI)_<br> AngelHack Seoul 2020 Online <br> July 19th, 2020
 
 - **[Capture the Moment](https://github.com/KasRoid/CaptureTheMoment)** <br> Teamates: _[roobing](https://github.com/roobing)_<br> FastCampus Hackathon <br> June 26th, 2020
 
