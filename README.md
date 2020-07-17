@@ -18,7 +18,7 @@
 
 ---
 
-## 2. Additional iOS Courses I'm taking ##
+## 2. Online iOS Courses I'm taking ##
 
 > Below links indicate to my Github reopsitories. More infos about the projects are available in my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**. If you are interested, please check it out too!
 
