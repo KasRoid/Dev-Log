@@ -56,6 +56,8 @@
 
 > Here I'm going to talk about my super tiny projects
 
+Comming Soong
+
 ---
 
 ## 5. FastCampus iOS Developer School ##
