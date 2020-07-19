@@ -56,7 +56,7 @@
 
 > Here I'm going to talk about my super tiny projects
 
-Comming Soong
+Comming Soon
 
 ---
 
