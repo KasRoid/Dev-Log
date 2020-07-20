@@ -24,8 +24,10 @@
 
 - ### RayWenderLich ###
 
+    1. [ScrollView School](https://www.raywenderlich.com/9223-scroll-view-school) <br> 2020.07.15 - TBD
+
     1. [Beginning iOS Debugging](https://www.raywenderlich.com/4681-beginning-ios-debugging) <br> 2020.07.14 - TBD
-    2. [ScrollView School](https://www.raywenderlich.com/9223-scroll-view-school) <br> 2020.07.15 - TBD
+    
 
 - ### Udemy ###
 
@@ -35,8 +37,8 @@
 - ### Others ###
 
     1. [Stanford CS193p: Developing Apps for iOS - Spring 2020](https://github.com/KasRoid/CS193p) <br> 2020.05.22 - TBD
-    2. [The_Complete_iOS_App_Development_Bootcamp](https://github.com/KasRoid/The_Complete_iOS_App_Development_Bootcamp) <br> 2020.05.04 - TBD
-    3. [Storyboard Design Practice](https://github.com/KasRoid/Intro_to_iOS_Development) <br> 2020.04.17 - 2020.04.27
+    1. [The_Complete_iOS_App_Development_Bootcamp](https://github.com/KasRoid/The_Complete_iOS_App_Development_Bootcamp) <br> 2020.05.04 - TBD
+    1. [Storyboard Design Practice](https://github.com/KasRoid/Intro_to_iOS_Development) <br> 2020.04.17 - 2020.04.27
 
 ---
 
