@@ -44,7 +44,7 @@
 
 > I love hanging out with some random people!
 
-- **[VegeX](https://github.com/KasRoid/VegeX)** <br> Teamates: _[1000JI](https://github.com/1000JI)_<br> AngelHack Seoul 2020 Online <br> July 19th, 2020
+- **[VegeX: 느린채식](https://github.com/KasRoid/VegeX)** <br> Teamates: _[1000JI](https://github.com/1000JI)_<br> AngelHack Seoul 2020 Online <br> July 19th, 2020
 
 - **[Capture the Moment](https://github.com/KasRoid/CaptureTheMoment)** <br> Teamates: _[roobing](https://github.com/roobing)_<br> FastCampus Hackathon <br> June 26th, 2020
 
@@ -66,7 +66,8 @@ Comming Soon
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
-|  Week 15  |  Creating an App for Searching Cafe  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15/Assignments) |
+    |  Week 16  |  Build a Weather App  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_16) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_16/Assignments) |
+|  Week 15  |  Build an Searching Cafe App  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15/Assignments) |
 |  Week 14  |  JSON & Codable                      | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_14) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_14/Assignments) |
 |  Week 13  |  Data Structure & GCD                | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_13) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_13/Assignments) |
 |  Week 12  |  Dynamic Layout                      | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_12) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_12/Assignments) |
