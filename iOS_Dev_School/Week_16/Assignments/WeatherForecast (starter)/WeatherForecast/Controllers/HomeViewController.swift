@@ -267,7 +267,6 @@ class HomeViewController: UIViewController {
         UIView.animate(withDuration: 0.3, delay: 0.1, options: .curveLinear, animations: {
             sender.transform = CGAffineTransform(rotationAngle: CGFloat.pi * 2)
         }, completion: nil)
-        self.view.layoutIfNeeded()
     }
     
     private func transitionBackground() {

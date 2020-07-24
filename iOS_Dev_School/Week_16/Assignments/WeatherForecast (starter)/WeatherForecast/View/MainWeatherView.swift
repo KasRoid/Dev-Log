@@ -55,17 +55,9 @@ class MainWeatherView: UIView {
             $0.textColor = .white
         }
         
-        weatherIconImageView.image = UIImage(named: "01d")
-        weatherDescription.text = "맑음"
         weatherDescription.font = UIFont.systemFont(ofSize: 23, weight: .regular)
-//        weatherDescription.adjustsFontSizeToFitWidth = true
-        
-        lowestTemperatureLabel.text = "⤓ 13.0°"
         lowestTemperatureLabel.font = UIFont.systemFont(ofSize: 20, weight: .regular)
-        highestTemperatureLabel.text = "⤒ 24.0°"
         highestTemperatureLabel.font = UIFont.systemFont(ofSize: 20, weight: .regular)
-        
-        currentTemeratureLabel.text = "19.2°"
         currentTemeratureLabel.font = UIFont.systemFont(ofSize: 100, weight: .thin)
     }
     
@@ -75,8 +67,7 @@ class MainWeatherView: UIView {
         }
         
         currentTemeratureLabel.snp.makeConstraints {
-            $0.leading.equalToSuperview()
-            $0.bottom.equalToSuperview()
+            $0.leading.bottom.equalToSuperview()
         }
         temperatureStackView.snp.makeConstraints {
             $0.leading.equalTo(currentTemeratureLabel)
@@ -87,8 +78,7 @@ class MainWeatherView: UIView {
             $0.bottom.equalTo(temperatureStackView.snp.top).offset(-5)
         }
         weatherIconImageView.snp.makeConstraints {
-            $0.height.equalTo(45)
-            $0.width.equalTo(45)
+            $0.height.width.equalTo(45)
         }
     }
     
