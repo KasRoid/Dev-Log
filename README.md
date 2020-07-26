@@ -24,6 +24,8 @@
 
 - ### RayWenderLich ###
 
+    1. [Advanced Swift: Generics and Protocols](https://www.raywenderlich.com/1940187-advanced-swift-generics-and-protocols) <br> 2020.07.24 - TBD
+
     1. [ScrollView School](https://www.raywenderlich.com/9223-scroll-view-school) <br> 2020.07.15 - TBD
 
     1. [Beginning iOS Debugging](https://www.raywenderlich.com/4681-beginning-ios-debugging) <br> 2020.07.14 - TBD
@@ -68,6 +70,7 @@ Comming Soon
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
+|  Week 17  |  Debugging & SwiftUI  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_17) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_17/Assignments) |
 |  Week 16  |  Build a Weather App  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_16) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_16/Assignments) |
 |  Week 15  |  Build an Cafe Searching App  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15/Assignments) |
 |  Week 14  |  JSON & Codable                      | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_14) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_14/Assignments) |
