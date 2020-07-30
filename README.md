@@ -3,9 +3,9 @@
 ## Table of Contents ##
 
 - [1. My Study Notes](#1-my-study-notes)
-- [2. Online iOS Courses](#2-additional-ios-courses-im-taking)
-- [3. Hackathon](#3-Hackathon)
-- [4. Tiny Projects](#4-Tiny-Projects)
+- [2. Hackathon](#2-hackathon)
+- [3. Side Projects](#3-side-Projects)
+- [4. Online iOS Courses](#4-online-ios-courses-im-taking)
 - [5. FastCampus iOS Developer School](#5-fastcampus-ios-developer-school)
 
 ---
@@ -18,7 +18,27 @@
 
 ---
 
-## 2. Online iOS Courses I'm taking ##
+## 2. Hackathon ##
+
+> I love hanging out with some random people!
+
+- **[VegeX: 느린채식](https://github.com/KasRoid/VegeX)** <br> Teamates: _[1000JI](https://github.com/1000JI)_<br> AngelHack Seoul 2020 Online <br> July 13th - 19th, 2020
+
+- **[Capture the Moment](https://github.com/KasRoid/CaptureTheMoment)** <br> Teamates: _[roobing](https://github.com/roobing)_<br> FastCampus Hackathon <br> June 26th, 2020
+
+- **[CardGame with LoginPage](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09/Hackathon)** <br> Teammates: _[ByoungilYoun](https://github.com/ByoungilYoun)_ <br> FastCampus Hackathon <br> June 5th, 2020
+
+---
+
+## 3. Side Projects ##
+
+> Here I'm going to talk about my super tiny projects
+
+Comming Soon
+
+---
+
+## 4. Online iOS Courses I'm taking ##
 
 > Below links indicate to my Github reopsitories. More infos about the projects are available in my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**. If you are interested, please check it out too!
 
@@ -40,27 +60,7 @@
 
     1. [Stanford CS193p: Developing Apps for iOS - Spring 2020](https://github.com/KasRoid/CS193p) <br> 2020.05.22 - TBD
     1. [The_Complete_iOS_App_Development_Bootcamp](https://github.com/KasRoid/The_Complete_iOS_App_Development_Bootcamp) <br> 2020.05.04 - TBD
-        1. [Storyboard Design Practice](https://github.com/KasRoid/Intro_to_iOS_Development) <br> 2020.04.17 - 2020.04.27
-
----
-
-## 3. Hackathon ##
-
-> I love hanging out with some random people!
-
-- **[VegeX: 느린채식](https://github.com/KasRoid/VegeX)** <br> Teamates: _[1000JI](https://github.com/1000JI)_<br> AngelHack Seoul 2020 Online <br> July 13th - 19th, 2020
-
-- **[Capture the Moment](https://github.com/KasRoid/CaptureTheMoment)** <br> Teamates: _[roobing](https://github.com/roobing)_<br> FastCampus Hackathon <br> June 26th, 2020
-
-- **[CardGame with LoginPage](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_09/Hackathon)** <br> Teammates: _[ByoungilYoun](https://github.com/ByoungilYoun)_ <br> FastCampus Hackathon <br> June 5th, 2020
-
----
-
-## 4. Tiny Projects ##
-
-> Here I'm going to talk about my super tiny projects
-
-Comming Soon
+    1. [Storyboard Design Practice](https://github.com/KasRoid/Intro_to_iOS_Development) <br> 2020.04.17 - 2020.04.27
 
 ---
 
@@ -70,6 +70,8 @@ Comming Soon
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
+|  Week 19  |  Individual Project   | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_19) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_19/Assignments) |
+|  Week 18  |  Individual Project   | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_18) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_18/Assignments) |
 |  Week 17  |  Debugging & SwiftUI  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_17) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_17/Assignments) |
 |  Week 16  |  Build a Weather App  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_16) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_16/Assignments) |
 |  Week 15  |  Build an Cafe Searching App  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15/Assignments) |
