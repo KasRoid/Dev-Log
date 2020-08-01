@@ -32,7 +32,7 @@
 
 ## 3. Side Projects ##
 
-> Here I'm going to talk about my super tiny projects
+> Here I'm going to talk about my own app and some side projects.
 
 Comming Soon
 
