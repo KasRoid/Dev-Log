@@ -1,5 +1,9 @@
 # Here is my footage 🐾  as an iOS Developer #
 
+## About Me ##
+
+**[Check My Resume](https://ikas.tistory.com/pages/About-Me)**
+
 ## Table of Contents ##
 
 - [1. My Study Notes](#1-my-study-notes)
@@ -14,7 +18,9 @@
 
 > Caution : I only upload Xcode files on Github. So please check out my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)** for further information. There are plenty of my notes and useful tips I learned
 
-- **[My Blog: Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**
+- **[Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**
+
+- **[My Blog](https://ikas.tistory.com)**
 
 ---
 
