@@ -2,7 +2,7 @@
 
 ## About Me ##
 
-**[Check My Resume](https://ikas.tistory.com/pages/About-Me)**
+**[See My PORTFOLIO](https://ikas.tistory.com/pages/About-Me)**
 
 ## Table of Contents ##
 
@@ -20,7 +20,7 @@
 
 - **[Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**
 
-- **[My Blog](https://ikas.tistory.com)**
+- **[My Blog: Developer Kas](https://ikas.tistory.com)**
 
 ---
 
