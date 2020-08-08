@@ -2,6 +2,7 @@
 
 ## About Me ##
 
+Temporarily Closed
 **[See My PORTFOLIO](https://ikas.tistory.com/pages/About-Me)**
 
 ## Table of Contents ##
