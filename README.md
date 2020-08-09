@@ -77,11 +77,12 @@ Temporarily Closed
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
-|  Week 19  |  Individual Project   | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_19) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_19/Assignments) |
-|  Week 18  |  Individual Project   | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_18) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_18/Assignments) |
-|  Week 17  |  Debugging & SwiftUI  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_17) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_17/Assignments) |
-|  Week 16  |  Build a Weather App  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_16) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_16/Assignments) |
-|  Week 15  |  Build an Cafe Searching App  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15/Assignments) |
+|  Week 20  |  Final Project                       | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_20) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_20/Assignments) |
+|  Week 19  |  Individual Project                  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_19) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_19/Assignments) |
+|  Week 18  |  Individual Project                  | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_18) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_18/Assignments) |
+|  Week 17  |  Debugging & SwiftUI                 | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_17) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_17/Assignments) |
+|  Week 16  |  Build a Weather App                 | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_16) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_16/Assignments) |
+|  Week 15  |  Build an Cafe Searching App         | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_15/Assignments) |
 |  Week 14  |  JSON & Codable                      | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_14) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_14/Assignments) |
 |  Week 13  |  Data Structure & GCD                | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_13) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_13/Assignments) |
 |  Week 12  |  Dynamic Layout                      | [Details](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_12) | [My Solution](https://github.com/KasRoid/MyStudyHistory/tree/master/iOS_Dev_School/Week_12/Assignments) |
