@@ -2,8 +2,7 @@
 
 ## About Me ##
 
-Temporarily Closed
-**[See My PORTFOLIO](https://ikas.tistory.com/pages/About-Me)**
+**[See My PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ## Table of Contents ##
 
