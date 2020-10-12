@@ -40,7 +40,7 @@
 
 > Here I'm going to talk about my own app and some side projects.
 
-- **[Mart Kurly](https://github.com/KasRoid/martkurly-ios)** <br> Teamates: _[1000JI](https://github.com/1000JI)_, _[shooooting](https://github.com/shooooting)_<br> AngelHack Seoul 2020 Online <br> July 13th - 19th, 2020
+- **[Mart Kurly](https://github.com/KasRoid/martkurly-ios)** <br> Teamates: _[1000JI](https://github.com/1000JI)_, _[shooooting](https://github.com/shooooting)_<br> Fast Campus Final Project <br> August 20th - October 8th, 2020
 
 - **[VegeXI: 느린채식 AppStore ver.](https://github.com/KasRoid/VegeX)** <br> Teamates: _[1000JI](https://github.com/1000JI)_<br> AngelHack Seoul 2020 Online <br> July 13th - 19th, 2020
 
