@@ -1,22 +1,25 @@
 # Here is my footage 🐾  as an iOS Developer #
 
-## About Me ##
-
-**[See My PORTFOLIO](http://kasroid.github.io/Portfolio/)**
-
 ## Table of Contents ##
 
-- [1. My Study Notes](#1-my-study-notes)
-- [2. Hackathon](#2-hackathon)
-- [3. Side Projects](#3-side-Projects)
-- [4. Online iOS Courses](#4-online-ios-courses-im-taking)
-- [5. FastCampus iOS Developer School](#5-fastcampus-ios-developer-school)
+- [1. About Me](#1-about-me)
+- [2. My Study Notes](#2-my-study-notes)
+- [3. Hackathon](#3-hackathon)
+- [4. Side Projects](#4-side-Projects)
+- [5. Online iOS Courses](#5-online-ios-courses)
+- [6. FastCampus iOS Developer School](#6-fastcampus-ios-developer-school)
 
 ---
 
-## 1. My Study Notes ##
+## 1. About Me ##
 
-> Caution : I only upload Xcode files on Github. So please check out my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)** for further information. There are plenty of my notes and useful tips I learned
+**[See My PORTFOLIO](http://kasroid.github.io/Portfolio/)**
+
+---
+
+## 2. My Study Notes ##
+
+> I only upload Xcode files on Github. So please check out my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)** for further information. There are plenty of my notes and useful tips I learned
 
 - **[Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**
 
@@ -24,7 +27,7 @@
 
 ---
 
-## 2. Hackathon ##
+## 3. Hackathon ##
 
 > I love hanging out with some random people!
 
@@ -36,7 +39,7 @@
 
 ---
 
-## 3. Side Projects ##
+## 4. Side Projects ##
 
 > Here I'm going to talk about my own app and some side projects.
 
@@ -46,7 +49,7 @@
 
 ---
 
-## 4. Online iOS Courses ##
+## 5. Online iOS Courses ##
 
 > Below links indicate to my Github reopsitories. More infos about the projects are available in my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**. If you are interested, please check it out too!
 
@@ -72,7 +75,7 @@
 
 ---
 
-## 5. FastCampus iOS Developer School ##
+## 6. FastCampus iOS Developer School ##
 
 > Date: 2020.04.03 - 2020.09.25 <br> This is where I started my journey as an iOS Developer
 
