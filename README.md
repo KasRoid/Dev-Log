@@ -20,7 +20,7 @@
 
 - **[Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**
 
-- **[My Blog: Developer Kas](https://ikas.tistory.com)**
+- **[My Blog: Developer Kas](https://kasroid.github.io)**
 
 ---
 
