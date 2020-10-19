@@ -13,17 +13,17 @@
 
 ## 1. About Me ##
 
-**[See My PORTFOLIO](http://kasroid.github.io/Portfolio/)**
+**[Check out my PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
 ## 2. My Study Notes ##
 
-> I only upload Xcode files on Github. So please check out my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**, **[Blog](https://kasroid.github.io)** for further information. There are plenty of my notes and useful tips I learned
-
-- **[Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**
+> I only upload Xcode files on Github. So please check out my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**, or **[Blog](https://kasroid.github.io)** for further information. There are plenty of my notes and useful tips I learned.
 
 - **[My Blog: Developer Kas](https://kasroid.github.io)**
+
+- **[Notion: Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**
 
 ---
 
