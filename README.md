@@ -62,12 +62,15 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
     1. [ScrollView School](https://www.raywenderlich.com/9223-scroll-view-school) <br> 2020.07.15 - TBD
 
     1. [Beginning iOS Debugging](https://www.raywenderlich.com/4681-beginning-ios-debugging) <br> 2020.07.14 - TBD
-    
 
 - ### Udemy ###
 
     1. [FireChat_Clone](https://github.com/KasRoid/FireChat) <br> 2020.06.03 - TBD
     1. [Instagram_Clone](https://github.com/KasRoid/Instagram_Clone_Udemy) <br> 2020.04.30 - TBD
+    
+- ### KXCoding ###
+
+    1. [Mastering iOS](https://kxcoding.com/learning/mastering-ios) <br> 2020.10.12 - TBD
 
 - ### Others ###
 
