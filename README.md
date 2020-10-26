@@ -43,7 +43,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 > Here I'm going to talk about my own app and some side projects.
 
-- **[Moment](https://github.com/KasRoid/Moment)** <br> Individual Project <br> Simple Yet Elegant Camera App <br> August 26th, 2020 - TBD
+- **[Moment+](https://github.com/KasRoid/Moment)** <br> Individual Project <br> Simple Yet Elegant Camera App <br> August 26th, 2020 - TBD
 
 - **[Mart Kurly](https://github.com/KasRoid/martkurly-ios)** <br> Teamates: _[1000JI](https://github.com/1000JI)_, _[shooooting](https://github.com/shooooting)_<br> Fast Campus Final Project <br> August 20th - October 8th, 2020
 
