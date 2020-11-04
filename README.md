@@ -2,12 +2,13 @@
 
 ## Table of Contents ##
 
-- [1. About Me](#1-about-me)
-- [2. My Study Notes](#2-my-study-notes)
-- [3. Hackathon](#3-hackathon)
-- [4. Side Projects](#4-side-Projects)
-- [5. Online iOS Courses](#5-online-ios-courses)
-- [6. FastCampus iOS Developer School](#6-fastcampus-ios-developer-school)
+- [1. About Me](#1-about-me)]
+- [2. Work Experience](#2-work-experience)
+- [3. My Study Notes](#3-my-study-notes)
+- [4. Hackathon](#4-hackathon)
+- [5. Side Projects](#5-side-Projects)
+- [6. Online iOS Courses](#6-online-ios-courses)
+- [7. FastCampus iOS Developer School](#7-fastcampus-ios-developer-school)
 
 ---
 
@@ -17,7 +18,13 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
-## 2. My Study Notes ##
+## 2. Work Experience ##
+
+- **Hello Digital** <br> 2020.11.02 - Current
+
+---
+
+## 3. My Study Notes ##
 
 > Check out my **[Blog](https://kasroid.github.io)** or **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)** for further information. There are plenty of my notes and useful tips I learned.
 
@@ -27,7 +34,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
-## 3. Hackathon ##
+## 4. Hackathon ##
 
 > I love hanging out with some random people!
 
@@ -39,7 +46,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
-## 4. Side Projects ##
+## 5. Side Projects ##
 
 > Here I'm going to talk about my own app and some side projects.
 
@@ -51,7 +58,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
-## 5. Online iOS Courses ##
+## 6. Online iOS Courses ##
 
 > Below links indicate to my Github reopsitories. More infos about the projects are available in my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**. If you are interested, please check it out too!
 
@@ -80,7 +87,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
-## 6. FastCampus iOS Developer School ##
+## 7. FastCampus iOS Developer School ##
 
 > Date: 2020.04.03 - 2020.10.08 <br> This is where I started my journey as an iOS Developer
 
