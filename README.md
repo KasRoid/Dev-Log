@@ -20,7 +20,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ## 2. Work Experience ##
 
-- **Hello Digital** <br> iOS Developer <br> November 2nd, 2020 - Current
+- **Hello Digital** <br> iOS Developer <br> November 2nd, 2020 - November 17th, 2020
 
 ---
 
