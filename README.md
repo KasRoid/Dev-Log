@@ -20,6 +20,8 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ## 2. Work Experience ##
 
+- **S alpha Therapeutics** <br> iOS Developer & Project Manager <br> November, 18th, 2020
+
 - **Hello Digital** <br> iOS Developer <br> November 2nd, 2020 - November 17th, 2020
 
 ---
