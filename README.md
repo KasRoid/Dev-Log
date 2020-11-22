@@ -34,6 +34,8 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 - **[Notion: Study Notes](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**
 
+![Notion](https://user-images.githubusercontent.com/41736472/99894474-50c2f480-2cc7-11eb-8deb-af6ce2e1fcce.png)
+
 ---
 
 ## 4. Hackathon ##
