@@ -94,7 +94,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ## 7. FastCampus iOS Developer School ##
 
-> Date: 2020.04.03 - 2020.10.08 <br> This is where I started my journey as an iOS Developer
+> Date: 2020.04.03 - 2020.10.08 <br> Where my journey began
 
 |   Week#   |    Topic   |  Lecture |  Assignments  |
 |:---------:|:----------:|:--------:|:-------------:|
