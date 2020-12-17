@@ -2,7 +2,7 @@
 
 ## Table of Contents ##
 
-- [1. About Me](#1-about-me)
+- [1. Core Skills](#1-core-skills)
 - [2. Work Experience](#2-work-experience)
 - [3. My Study Notes](#3-my-study-notes)
 - [4. Hackathon](#4-hackathon)
@@ -12,9 +12,14 @@
 
 ---
 
-## 1. About Me ##
+## 1. Core Skills ##
 
 Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
+
+- Swift
+- UIKit
+- ARKit
+- MVVM
 
 ---
 
