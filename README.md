@@ -4,11 +4,12 @@
 
 - [1. Core Skills](#1-core-skills)
 - [2. Work Experience](#2-work-experience)
-- [3. My Study Notes](#3-my-study-notes)
-- [4. Hackathon](#4-hackathon)
-- [5. Side Projects](#5-side-Projects)
-- [6. Online iOS Courses](#6-online-ios-courses)
-- [7. FastCampus iOS Developer School](#7-fastcampus-ios-developer-school)
+- [3. My Apps](#3-my-apps)
+- [4. My Study Notes](#4-my-study-notes)
+- [5. Hackathon](#5-hackathon)
+- [6. Side Projects](#6-side-Projects)
+- [7. Online iOS Courses](#7-online-ios-courses)
+- [8. FastCampus iOS Developer School](#8-fastcampus-ios-developer-school)
 
 ---
 
@@ -31,7 +32,16 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
-## 3. My Study Notes ##
+## 3. My Apps
+
+### Just 10-Sec
+
+- AR Gaming App
+- Released Date: 2020-12-29
+
+---
+
+## 4. My Study Notes ##
 
 > Check out my **[Blog](https://kasroid.github.io)** or **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)** for further information. There are plenty of my notes and useful tips I learned.
 
@@ -43,7 +53,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
-## 4. Hackathon ##
+## 5. Hackathon ##
 
 > I love hanging out with some random people!
 
@@ -55,7 +65,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
-## 5. Side Projects ##
+## 6. Side Projects ##
 
 > Here I'm going to talk about my own app and some side projects.
 
@@ -67,7 +77,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
-## 6. Online iOS Courses ##
+## 7. Online iOS Courses ##
 
 > Below links indicate to my Github reopsitories. More infos about the projects are available in my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**. If you are interested, please check it out too!
 
@@ -97,7 +107,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
-## 7. FastCampus iOS Developer School ##
+## 8. FastCampus iOS Developer School ##
 
 > Date: 2020.04.03 - 2020.10.08 <br> Where my journey began
 
