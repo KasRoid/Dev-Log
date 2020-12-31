@@ -37,7 +37,8 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 ### Just 10-Sec
 
 - AR Gaming App
-- Released Date: 2020-12-29
+- Released Date: December 29th, 2020
+- App Store: https://apps.apple.com/us/app/just-10-sec/id1546486062
 
 ---
 
