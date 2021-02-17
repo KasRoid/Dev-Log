@@ -18,13 +18,9 @@
 Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 - Swift
-- UIKit
-- ARKit
-- SceneKit
-- RealityKit
+- UIKit, ARKit, SceneKit, RealityKit
 - RxSwift
-- MVC
-- MVVM
+- MVC, MVVM
 
 ---
 
