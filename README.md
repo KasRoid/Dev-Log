@@ -17,11 +17,12 @@
 
 Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
-- Swift, JavaScript
+- Swift, JavaScript, AppleScript
 - UIKit, ARKit, SceneKit, RealityKit
 - SwiftUI
 - RxSwift
 - MVC, MVVM
+- Regular Expression
 
 ---
 
