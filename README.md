@@ -23,6 +23,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 - RxSwift
 - MVC, MVVM
 - Regular Expression
+- Git, Github
 
 ---
 
