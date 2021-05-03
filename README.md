@@ -103,7 +103,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 - ### Udemy ###
 
-    1. [ARKit-Augmented-Reality](https://github.com/KasRoid/ARKit-Augmented-Reality) <br> 2020.11.26 - TBD
+    1. [ARKit-Augmented-Reality](https://github.com/KasRoid/ARKit-Augmented-Reality) <br> 2020.11.26 - 2021.01.03
     1. [FireChat_Clone](https://github.com/KasRoid/FireChat) <br> 2020.06.03 - TBD
     1. [Instagram_Clone](https://github.com/KasRoid/Instagram_Clone_Udemy) <br> 2020.04.30 - TBD
     1. [SwiftUI]() <br> 2021.03.27 - TBD
