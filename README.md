@@ -29,7 +29,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ## 2. Work Experience ##
 
-- **S alpha Therapeutics** <br> iOS Developer <br> November, 18th, 2020 - Current
+- **S alpha Therapeutics** <br> Lead iOS Developer <br> November, 18th, 2020 - Current
 
 - **DreamPlus(Volunteer)** <br> iOS Instructor <br> December, 2020 - Current <br> [Watch Lecture on Youtube](https://www.youtube.com/playlist?list=PLHVUcikEqb4iW5aL0wWvX8KYJUTwE34Ty)
 
