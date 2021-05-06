@@ -110,7 +110,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
     
 - ### KXCoding ###
 
-    1. [Mastering iOS](https://kxcoding.com/learning/mastering-ios) <br> 2020.10.12 - TBD
+    1. [Mastering iOS](https://kxcoding.com/learning/mastering-ios) <br> 2020.10.12 - 2021.05.07
 
 - ### Others ###
 
