@@ -22,11 +22,12 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 - SwiftUI
 - RxSwift
 - MVC, MVVM
-- Regular Expression
 - Git, Github
 - Node.js
 - Express
 - HTML, CSS
+- RestAPI, GraphQL
+- Regular Expression
 
 ---
 
