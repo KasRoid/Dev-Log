@@ -27,6 +27,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 - Express
 - HTML, CSS
 - RestAPI, GraphQL
+- Network
 - Regular Expression
 
 ---
