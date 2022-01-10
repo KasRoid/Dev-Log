@@ -17,17 +17,33 @@
 
 Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
-- Swift, JavaScript, AppleScript
+### Language
+
+- Swift
+- JavaScript (HTML, CSS)
+- AppleScript
+
+### Mobile
+
 - UIKit, ARKit, SceneKit, SpriteKit, RealityKit
 - SwiftUI
 - RxSwift
-- MVC, MVVM
-- Git, Github
+
+### Serverside
+
 - Node.js
 - Express
-- HTML, CSS
-- RestAPI, GraphQL
-- Network
+
+### Architecture
+
+- MVC
+- MVVM
+
+### ETC.
+
+- Version Control: Git
+- API: RestAPI, GraphQL
+- Basics of Network
 - Regular Expression
 
 ---
