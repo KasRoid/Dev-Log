@@ -56,6 +56,8 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 - **Hello Digital** <br> iOS Developer <br> November 2nd, 2020 - November 17th, 2020
 
+- **Biztalk** <br> Web Developer <br> June, 2018 - Febuary, 2020
+
 ---
 
 ## 3. My Apps
