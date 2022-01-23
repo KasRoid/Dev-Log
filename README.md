@@ -40,6 +40,13 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 - MVC
 - MVVM
 
+### Design Paterns
+
+- Abstract Factory
+- Facede
+- Factory Method
+- Singleton
+
 ### ETC.
 
 - Version Control: Git
