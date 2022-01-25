@@ -43,8 +43,10 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 ### Design Paterns
 
 - Abstract Factory
-- Facede
+- Builder
+- Facade
 - Factory Method
+- Prototype
 - Singleton
 
 ### ETC.
