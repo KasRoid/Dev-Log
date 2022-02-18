@@ -72,10 +72,15 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ## 3. Education ##
 
+- Kookmin University
+-   Master of Software Engineering
+
 - Indiana University
   - Bachelor of Telecommunications
+  
 - Fast Campus
   - iOS Developer School
+  
 - Harmony High School
 
 ---
