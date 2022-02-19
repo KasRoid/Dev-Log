@@ -21,6 +21,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 ### Language
 
 - Swift
+- Python
 - JavaScript (HTML, CSS)
 - AppleScript
 
