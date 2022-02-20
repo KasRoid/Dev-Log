@@ -33,6 +33,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ### Serverside
 
+- Django
 - Node.js
 - Express
 
