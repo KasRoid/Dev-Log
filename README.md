@@ -37,20 +37,6 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 - Node.js
 - Express
 
-### Architecture
-
-- MVC
-- MVVM
-
-### Design Paterns
-
-- Abstract Factory
-- Builder
-- Facade
-- Factory Method
-- Prototype
-- Singleton
-
 ### ETC.
 
 - Version Control: Git
