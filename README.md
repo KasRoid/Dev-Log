@@ -9,8 +9,7 @@
 - [5. My Study Notes](#5-my-study-notes)
 - [6. Hackathon](#6-hackathon)
 - [7. Side Projects](#7-side-Projects)
-- [8. Online iOS Courses](#8-online-ios-courses)
-- [9. FastCampus iOS Developer School](#9-fastcampus-ios-developer-school)
+- [8. FastCampus iOS Developer School](#9-fastcampus-ios-developer-school)
 
 ---
 
@@ -122,38 +121,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
-## 8. Online iOS Courses ##
-
-> Below links indicate to my Github reopsitories. More infos about the projects are available in my **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)**. If you are interested, please check it out too!
-
-- ### RayWenderLich ###
-
-    1. [Advanced Swift: Generics and Protocols](https://www.raywenderlich.com/1940187-advanced-swift-generics-and-protocols) <br> 2020.07.24 - TBD
-
-    1. [ScrollView School](https://www.raywenderlich.com/9223-scroll-view-school) <br> 2020.07.15 - TBD
-
-    1. [Beginning iOS Debugging](https://www.raywenderlich.com/4681-beginning-ios-debugging) <br> 2020.07.14 - TBD
-
-- ### Udemy ###
-
-    1. [ARKit-Augmented-Reality](https://github.com/KasRoid/ARKit-Augmented-Reality) <br> 2020.11.26 - 2021.01.03
-    1. [FireChat_Clone](https://github.com/KasRoid/FireChat) <br> 2020.06.03 - TBD
-    1. [Instagram_Clone](https://github.com/KasRoid/Instagram_Clone_Udemy) <br> 2020.04.30 - TBD
-    1. [SwiftUI]() <br> 2021.03.27 - TBD
-    
-- ### KXCoding ###
-
-    1. [Mastering iOS](https://kxcoding.com/learning/mastering-ios) <br> 2020.10.12 - 2021.05.07
-
-- ### Others ###
-
-    1. [Stanford CS193p: Developing Apps for iOS - Spring 2020](https://github.com/KasRoid/CS193p) <br> 2020.05.22 - TBD
-    1. [The_Complete_iOS_App_Development_Bootcamp](https://github.com/KasRoid/The_Complete_iOS_App_Development_Bootcamp) <br> 2020.05.04 - TBD
-    1. [Storyboard Design Practice](https://github.com/KasRoid/Intro_to_iOS_Development) <br> 2020.04.17 - 2020.04.27
-
----
-
-## 9. FastCampus iOS Developer School ##
+## 8. FastCampus iOS Developer School ##
 
 > Date: 2020.04.03 - 2020.10.08 <br> Where my journey began
 
