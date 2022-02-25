@@ -22,6 +22,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 - Swift
 - Python
 - JavaScript (HTML, CSS)
+- SQL
 - AppleScript
 
 ### Mobile
