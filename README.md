@@ -68,7 +68,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
   
 - **Fast Campus** <br> iOS Developer School
   
-- **Harmony High School**
+- **Harmony High School** <br> Sep, 2003 - May, 2007
 
 ---
 
