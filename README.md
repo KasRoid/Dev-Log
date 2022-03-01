@@ -66,7 +66,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 - **Indiana University** <br> Bachelor of Telecommunications
   
-- **Fast Campus** <br> iOS Developer School
+- **Fast Campus** <br> iOS Developer School <br> Sep, 2007 - Dec, 2016
   
 - **Harmony High School** <br> Sep, 2003 - May, 2007
 
