@@ -64,9 +64,9 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 - **Kookmin University** <br> Master of Computer Software
 
-- **Indiana University** <br> Bachelor of Telecommunications
+- **Indiana University** <br> Bachelor of Telecommunications  <br> Sep, 2007 - Dec, 2016
   
-- **Fast Campus** <br> iOS Developer School <br> Sep, 2007 - Dec, 2016
+- **Fast Campus** <br> iOS Developer School <br> Mar, 2020 - Sep, 2020
   
 - **Harmony High School** <br> Sep, 2003 - May, 2007
 
