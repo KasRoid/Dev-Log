@@ -62,7 +62,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ## 3. Education ##
 
-- **Kookmin University** <br> Master of Computer Software
+- **Kookmin University** <br> Master of Computer Software  <br> Mar, 2022 - Current
 
 - **Indiana University** <br> Bachelor of Telecommunications  <br> Sep, 2007 - Dec, 2016
   
