@@ -1,4 +1,4 @@
-# Here is my footage 🐾  as an iOS Developer #
+# Resume - Doyoung Song
 
 ## Table of Contents ##
 
