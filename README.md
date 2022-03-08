@@ -2,9 +2,9 @@
 
 ## Table of Contents ##
 
-- [1. Core Skills](#1-core-skills)
-- [2. Work Experience](#2-work-experience)
-- [3. Education](#3-education)
+- [1. Work Experience](#1-work-experience)
+- [2. Education](#2-education)
+- [3. Core Skills](#3-core-skills)
 - [4. My Apps](#4-my-apps)
 - [5. My Study Notes](#5-my-study-notes)
 - [6. Hackathon](#6-hackathon)
@@ -13,7 +13,33 @@
 
 ---
 
-## 1. Core Skills ##
+## 1. Work Experience ##
+
+- **S alpha Therapeutics** <br> Lead iOS Developer <br> November, 18th, 2020 - Current
+
+- **DreamPlus 1.5(Volunteer)** <br> iOS Instructor <br> December, 2021 - Feb, 2022
+
+- **DreamPlus 1(Volunteer)** <br> iOS Instructor <br> December, 2020 - July, 2021 <br> [Watch Lecture on Youtube](https://www.youtube.com/playlist?list=PLHVUcikEqb4iW5aL0wWvX8KYJUTwE34Ty)
+
+- **Hello Digital** <br> iOS Developer <br> November 2nd, 2020 - November 17th, 2020
+
+- **Biztalk** <br> Web Developer <br> June, 2018 - Febuary, 2020
+
+---
+
+## 2. Education ##
+
+- **Kookmin University** <br> Master of Computer Software  <br> Mar, 2022 - Current
+
+- **Indiana University** <br> Bachelor of Telecommunications  <br> Sep, 2007 - Dec, 2016
+  
+- **Fast Campus** <br> iOS Developer School <br> Mar, 2020 - Sep, 2020
+  
+- **Harmony High School** <br> Sep, 2003 - May, 2007
+
+---
+
+## 3. Core Skills ##
 
 Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
@@ -43,32 +69,6 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 - API: RestAPI, GraphQL
 - Basics of Network
 - Regular Expression
-
----
-
-## 2. Work Experience ##
-
-- **S alpha Therapeutics** <br> Lead iOS Developer <br> November, 18th, 2020 - Current
-
-- **DreamPlus 1.5(Volunteer)** <br> iOS Instructor <br> December, 2021 - Feb, 2022
-
-- **DreamPlus 1(Volunteer)** <br> iOS Instructor <br> December, 2020 - July, 2021 <br> [Watch Lecture on Youtube](https://www.youtube.com/playlist?list=PLHVUcikEqb4iW5aL0wWvX8KYJUTwE34Ty)
-
-- **Hello Digital** <br> iOS Developer <br> November 2nd, 2020 - November 17th, 2020
-
-- **Biztalk** <br> Web Developer <br> June, 2018 - Febuary, 2020
-
----
-
-## 3. Education ##
-
-- **Kookmin University** <br> Master of Computer Software  <br> Mar, 2022 - Current
-
-- **Indiana University** <br> Bachelor of Telecommunications  <br> Sep, 2007 - Dec, 2016
-  
-- **Fast Campus** <br> iOS Developer School <br> Mar, 2020 - Sep, 2020
-  
-- **Harmony High School** <br> Sep, 2003 - May, 2007
 
 ---
 
