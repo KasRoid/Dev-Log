@@ -29,7 +29,7 @@
 
 ## 2. Education ##
 
-- **Kookmin University** <br> Master of Computer Software  <br> Mar, 2022 - Current
+- **Kookmin University** <br> Master of Computer Software  <br> Mar, 2022 - Dec, 2023
 
 - **Indiana University** <br> Bachelor of Telecommunications  <br> Sep, 2007 - Dec, 2016
   
