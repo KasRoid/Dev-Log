@@ -59,6 +59,7 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ### Serverside
 
+- Flask
 - Django
 - Node.js
 - Express
