@@ -15,13 +15,13 @@
 
 ## 1. Work Experience ##
 
-- **S alpha Therapeutics** <br> iOS Developer <br> November, 18th, 2020 - Current
+- **S alpha Therapeutics** <br> iOS Developer <br> November, 2020 - Current
 
 - **DreamPlus 2(Volunteer)** <br> iOS Instructor <br> July, 2022 - Current <br> [Watch Lecture on Youtube](https://www.youtube.com/playlist?list=PLHVUcikEqb4i5bNV-t1iW9Rotl0Y0YqFm)
 
 - **DreamPlus 1(Volunteer)** <br> iOS Instructor <br> December, 2020 - July, 2021 <br> [Watch Lecture on Youtube](https://www.youtube.com/playlist?list=PLHVUcikEqb4iW5aL0wWvX8KYJUTwE34Ty)
 
-- **Hello Digital** <br> iOS Developer <br> November 2nd, 2020 - November 17th, 2020
+- **Hello Digital** <br> iOS Developer <br> November, 2020 - November, 2020
 
 - **Biztalk** <br> Frontend Developer <br> June, 2018 - Febuary, 2020
 
