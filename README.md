@@ -46,7 +46,7 @@
 
 ## 4. Core Skills ##
 
-Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
+Check my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ### Language
 
@@ -61,7 +61,6 @@ Here is my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 - UIKit, ARKit, SceneKit, SpriteKit, RealityKit
 - SwiftUI
 - Combine
-- RxSwift
 
 ### Serverside
 
