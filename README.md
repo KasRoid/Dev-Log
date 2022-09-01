@@ -6,8 +6,8 @@
 - [2. Education](#2-education)
 - [3. Volunteering](#3-Volunteering)
 - [4. Core Skills](#4-core-skills)
-- [5. My Apps](#5-my-apps)
-- [6. My Study Notes](#6-my-study-notes)
+- [5. Apps](#5-apps)
+- [6. Study Notes](#6-study-notes)
 - [7. Hackathon](#7-hackathon)
 - [8. Side Projects](#8-side-Projects)
 - [9. FastCampus iOS Developer School](#9-fastcampus-ios-developer-school)
@@ -78,7 +78,7 @@ Check my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
-## 5. My Apps
+## 5. Apps
 
 ### Just 10-Sec
 
@@ -94,7 +94,7 @@ Check my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ---
 
-## 6. My Study Notes ##
+## 6. Study Notes ##
 
 > Check out my **[Blog](https://kasroid.github.io)** or **[Notion](https://www.notion.so/My-Blog-Study-Notes-87ba5d8cf6b647f8b8dbdbd182a06c55)** for further information. There are plenty of my notes and useful tips I learned.
 
