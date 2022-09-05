@@ -53,6 +53,7 @@ Check my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 - Swift
 - Python
 - JavaScript (HTML, CSS)
+- C#
 - SQL
 - AppleScript
 
@@ -71,6 +72,7 @@ Check my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ### ETC.
 
+- Unity
 - Version Control: Git
 - API: RestAPI, GraphQL
 - Basics of Network
