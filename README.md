@@ -16,7 +16,7 @@
 
 ## 1. Work Experience ##
 
-- **Korea Investment** <br> iOS Developer <br> November, 2022 - Current
+- **Korea Investment & Securities Co., Ltd.** <br> iOS Developer <br> November, 2022 - Current
 
 - **S alpha Therapeutics** <br> iOS Developer <br> November, 2020 - October, 2022
 
