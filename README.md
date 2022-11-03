@@ -40,9 +40,9 @@
 
 ## 3. Volunteering ##
 
-- **Dream+ 2nd (Volunteer)** <br> iOS Instructor <br> July, 2022 - Current <br> [Watch Lecture on Youtube](https://www.youtube.com/playlist?list=PLHVUcikEqb4i5bNV-t1iW9Rotl0Y0YqFm)
+- **Dream+ 2nd** <br> iOS Instructor <br> July, 2022 - Current <br> [Watch Lecture on Youtube](https://www.youtube.com/playlist?list=PLHVUcikEqb4i5bNV-t1iW9Rotl0Y0YqFm)
 
-- **Dream+ 1st (Volunteer)** <br> iOS Instructor <br> December, 2020 - July, 2021 <br> [Watch Lecture on Youtube](https://www.youtube.com/playlist?list=PLHVUcikEqb4iW5aL0wWvX8KYJUTwE34Ty)
+- **Dream+ 1st** <br> iOS Instructor <br> December, 2020 - July, 2021 <br> [Watch Lecture on Youtube](https://www.youtube.com/playlist?list=PLHVUcikEqb4iW5aL0wWvX8KYJUTwE34Ty)
 
 ---
 
