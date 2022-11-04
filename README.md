@@ -86,13 +86,13 @@ Check my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ### Just Go
 - Restaurant Search App
-- Released Date: October 6th, 2022
+- Release Date: October 6th, 2022
 - App Store: https://apps.apple.com/us/app/%EB%A7%9B%EC%A7%91-%EC%9B%90%EC%A0%95%EB%8C%80/id6443621949
 
 ### Just 10-Sec
 
 - AR Gaming App
-- Released Date: December 29th, 2020
+- Release Date: December 29th, 2020
 - App Store: https://apps.apple.com/us/app/just-10-sec/id1546486062
 
 ### Just a Moment
