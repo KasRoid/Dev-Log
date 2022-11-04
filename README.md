@@ -1,4 +1,4 @@
-# Resume - Doyoung Song
+# Doyoung's Dev Log
 
 ## Table of Contents ##
 
