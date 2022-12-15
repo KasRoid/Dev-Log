@@ -20,7 +20,7 @@
 
 - **S-alpha Therapeutics, Inc.** <br> iOS Developer <br> November, 2020 - October, 2022
 
-- **Biztalk** <br> Frontend Developer <br> June, 2018 - Febuary, 2020
+- **Biztalk** <br> Frontend Developer & Education Manager <br> June, 2018 - Febuary, 2020
 
 ---
 
