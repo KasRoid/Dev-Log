@@ -109,7 +109,7 @@ Check my **[PORTFOLIO](http://kasroid.github.io/Portfolio/)**
 
 ![Notion](https://user-images.githubusercontent.com/41736472/99894474-50c2f480-2cc7-11eb-8deb-af6ce2e1fcce.png)
 
-- **[My Blog: Developer Kas](https://kasroid.github.io)**
+- **[My Blog: Developer Lukas](https://kasroid.github.io)**
 
 ---
 
