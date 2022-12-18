@@ -1,4 +1,4 @@
-# Doyoung's Dev Log
+# Lukas Dev Log
 
 ## Table of Contents ##
 
